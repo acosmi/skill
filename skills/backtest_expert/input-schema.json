@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "run",
+        "configure",
+        "status",
+        "help"
+      ],
+      "description": "工具操作"
+    },
+    "input": {
+      "type": "string",
+      "description": "输入内容或参数"
+    },
+    "options": {
+      "type": "object",
+      "description": "配置选项"
+    },
+    "output_format": {
+      "type": "string",
+      "enum": [
+        "json",
+        "text",
+        "markdown"
+      ],
+      "description": "输出格式"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "key": "ga4_analytics",
+  "name": "GA4 分析",
+  "nameZh": "GA4 分析",
+  "description": "CrabClaw AgentSkills 捆绑包是 Google Analytics 4、Search Console 和 Index",
+  "descriptionZh": "CrabClaw AgentSkills 捆绑包是 Google Analytics 4、Search Console 和 Index",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "OTHER",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "coder-youhua",
+    "中文优化",
+    "搜索",
+    "API"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "21c70ae0-3956-4ba9-b6bb-4b0ffb919166",
+    "downloadCount": 4936,
+    "updatedAt": "2026-03-19 01:25",
+    "createdAt": ""
+  }
+}

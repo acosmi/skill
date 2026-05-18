@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "query": {
+      "type": "string",
+      "description": "用户需求描述（如 怎么搜索网页、有没有翻译技能）"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "ACTION",
+        "TRIGGER",
+        "TRANSFORM"
+      ],
+      "description": "技能分类过滤"
+    },
+    "max_results": {
+      "type": "integer",
+      "description": "返回最大数量，默认 5"
+    }
+  },
+  "required": [
+    "query"
+  ]
+}

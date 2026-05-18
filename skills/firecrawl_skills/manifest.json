@@ -1,0 +1,31 @@
+{
+  "key": "firecrawl_skills",
+  "name": "Firecrawl 搜索",
+  "nameZh": "Firecrawl 搜索",
+  "description": "Firecrawl 搜索 — 支持开展研究、整理资料并沉淀研究文档，适合在需要做开放式研究、整理结论或沉淀研究文档时调用通过Firecrawl 搜索高效完成信息收集和知识沉淀。",
+  "descriptionZh": "Firecrawl 搜索 — 支持开展研究、整理资料并沉淀研究文档，适合在需要做开放式研究、整理结论或沉淀研究文档时调用通过Firecrawl 搜索高效完成信息收集和知识沉淀。",
+  "version": "1.0.0",
+  "category": "TRIGGER",
+  "subcategory": "RESEARCH",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "coder-youhua",
+    "中文优化",
+    "研究",
+    "搜索"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "4129193b-334f-4420-a038-655879080e1d",
+    "downloadCount": 6533,
+    "updatedAt": "2026-03-19 01:25",
+    "createdAt": ""
+  }
+}

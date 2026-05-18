@@ -1,0 +1,9 @@
+# Mirror operator state — operator-local, not part of the public registry
+scripts/sync-state.json
+.mirror_state.json
+
+# OS / editor noise
+.DS_Store
+*.swp
+.idea/
+.vscode/

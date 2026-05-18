@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "properties": {
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "error",
+        "correction",
+        "discovery",
+        "reflection"
+      ],
+      "description": "学习事件类型：error=操作失败, correction=用户纠正, discovery=发现更优方式, reflection=主动反思"
+    },
+    "context": {
+      "type": "string",
+      "description": "触发学习的上下文描述，包含操作内容和环境信息"
+    },
+    "lesson": {
+      "type": "string",
+      "description": "从事件中提取的经验教训"
+    },
+    "action_taken": {
+      "type": "string",
+      "description": "已采取或建议的改进措施"
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "description": "事件严重程度"
+    }
+  },
+  "required": [
+    "event_type",
+    "context",
+    "lesson"
+  ]
+}

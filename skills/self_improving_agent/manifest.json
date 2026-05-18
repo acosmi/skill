@@ -1,0 +1,32 @@
+{
+  "key": "self_improving_agent",
+  "name": "自我进化智能体",
+  "nameZh": "自我进化智能体",
+  "description": "记录学习、错误和修正以实现持续改进。适用场景：（1）命令或操作意外失败时；（2）用户纠正操作时；（3）发现更好方式时。支持 CrabClaw 集成与跨会话学习传递。",
+  "descriptionZh": "记录学习、错误和修正以实现持续改进。适用场景：（1）命令或操作意外失败时；（2）用户纠正操作时；（3）发现更好方式时。支持 CrabClaw 集成与跨会话学习传递。",
+  "version": "3.0.1",
+  "category": "ACTION",
+  "subcategory": "EDUCATION",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "自我改进",
+    "智能体",
+    "记忆",
+    "持续学习",
+    "错误修正"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "9012fa29-429a-4321-bcb0-b15cb4cd9d73",
+    "downloadCount": 180921,
+    "updatedAt": "2026-03-19 01:23",
+    "createdAt": ""
+  }
+}

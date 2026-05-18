@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "lesson_id": {
+      "type": "string",
+      "description": "学习记录唯一标识"
+    },
+    "summary": {
+      "type": "string",
+      "description": "学习成果摘要"
+    },
+    "improvements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "具体改进列表"
+    },
+    "confidence": {
+      "type": "number",
+      "description": "改进置信度 0-1"
+    }
+  },
+  "required": [
+    "lesson_id",
+    "summary"
+  ]
+}

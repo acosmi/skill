@@ -1,0 +1,31 @@
+{
+  "key": "fundamental_stock_analysis",
+  "name": "股票基本面分析",
+  "nameZh": "股票基本面分析",
+  "description": "使用结构化评分手册进行基本股票分析和同行排名（质量、资产负债表安全、现金…，适合在需要在这一类任务里提高效率并减少重复操作时调用",
+  "descriptionZh": "使用结构化评分手册进行基本股票分析和同行排名（质量、资产负债表安全、现金…，适合在需要在这一类任务里提高效率并减少重复操作时调用",
+  "version": "1.0.5",
+  "category": "ACTION",
+  "subcategory": "SECURITY",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "coder-youhua",
+    "中文优化",
+    "安全",
+    "金融"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "15322d41-5385-4131-9356-998e3a6d7ba8",
+    "downloadCount": 4762,
+    "updatedAt": "2026-03-19 01:25",
+    "createdAt": ""
+  }
+}

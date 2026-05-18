@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "query": {
+      "type": "string",
+      "description": "搜索关键词"
+    },
+    "max_results": {
+      "type": "integer",
+      "description": "最大结果数，默认 10"
+    },
+    "time_range": {
+      "type": "string",
+      "enum": [
+        "day",
+        "week",
+        "month",
+        "year"
+      ],
+      "description": "时间过滤"
+    },
+    "language": {
+      "type": "string",
+      "description": "搜索语言"
+    },
+    "region": {
+      "type": "string",
+      "description": "地区代码"
+    },
+    "include_content": {
+      "type": "boolean",
+      "description": "是否提取页面内容"
+    }
+  },
+  "required": [
+    "query"
+  ]
+}

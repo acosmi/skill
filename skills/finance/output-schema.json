@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean",
+      "description": "操作是否成功"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "附加元信息"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "properties": {
+    "query": {
+      "type": "string",
+      "description": "查询内容或搜索关键词"
+    },
+    "url": {
+      "type": "string",
+      "description": "目标 URL 地址"
+    },
+    "action": {
+      "type": "string",
+      "enum": [
+        "read",
+        "send",
+        "search",
+        "list"
+      ]
+    },
+    "command": {
+      "type": "string",
+      "description": "要执行的 CLI 命令"
+    },
+    "env_vars": {
+      "type": "object",
+      "description": "所需环境变量: MATON_API_KEY, MATON_API_KEY, MATON_API_KEY, MATON_API_KEY, MATON_API_KEY"
+    }
+  },
+  "required": [
+    "query"
+  ]
+}

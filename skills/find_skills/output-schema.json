@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean",
+      "description": "操作是否成功"
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "content": {
+      "type": "string",
+      "description": "提取或处理后的内容"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "附加元信息"
+    }
+  }
+}
