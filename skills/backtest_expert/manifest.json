@@ -2,8 +2,8 @@
   "key": "backtest_expert",
   "name": "回测专家",
   "nameZh": "回测专家",
-  "description": "回测专家 — 交易策略系统回测的专家指导，适合在需要在这一类任务里提高效率并减少重复操作时调用",
-  "descriptionZh": "回测专家 — 交易策略系统回测的专家指导，适合在需要在这一类任务里提高效率并减少重复操作时调用",
+  "description": "交易策略系统化回测的专家指导,优先稳健性而非乐观结果。当需要回测策略、评估稳健性时触发。",
+  "descriptionZh": "交易策略系统化回测的专家指导,优先稳健性而非乐观结果。当需要回测策略、评估稳健性时触发。",
   "version": "0.1.0",
   "category": "ACTION",
   "subcategory": "PRODUCTIVITY",
@@ -11,10 +11,11 @@
   "author": "CrabClaw",
   "license": "Apache-2.0",
   "tags": [
-    "coder-youhua",
-    "中文优化",
-    "日历",
-    "效率"
+    "策略回测",
+    "交易策略",
+    "稳健性",
+    "量化",
+    "方法论"
   ],
   "timeout": 30,
   "retryCount": 0,
@@ -25,7 +26,7 @@
   "acosmi": {
     "storeId": "0757a03b-e26a-4f4e-9e67-c5f0656fc3af",
     "downloadCount": 4852,
-    "updatedAt": "2026-03-19 01:25",
+    "updatedAt": "2026-05-30 16:22",
     "createdAt": ""
   }
 }

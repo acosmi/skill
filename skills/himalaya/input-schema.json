@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "list",
+        "read",
+        "send",
+        "reply",
+        "forward",
+        "search",
+        "flag"
+      ],
+      "description": "邮件操作类型"
+    },
+    "folder": {
+      "type": "string",
+      "description": "邮箱文件夹，如 INBOX"
+    },
+    "id": {
+      "type": "string",
+      "description": "邮件 ID（read/reply/forward/flag 时使用）"
+    },
+    "to": {
+      "type": "string",
+      "description": "收件人（send 时使用）"
+    },
+    "subject": {
+      "type": "string",
+      "description": "主题（send 时使用）"
+    },
+    "body": {
+      "type": "string",
+      "description": "正文（send/reply 时使用）"
+    },
+    "query": {
+      "type": "string",
+      "description": "搜索关键词（search 时使用）"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

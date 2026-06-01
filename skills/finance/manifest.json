@@ -1,9 +1,9 @@
 {
   "key": "finance",
-  "name": "金融",
-  "nameZh": "金融",
-  "description": "金融 — CrabClaw 技能包旨在使用公共 API 和 l 跟踪市场数据",
-  "descriptionZh": "金融 — CrabClaw 技能包旨在使用公共 API 和 l 跟踪市场数据",
+  "name": "金融市场数据",
+  "nameZh": "金融市场数据",
+  "description": "金融数据:用公共 API 获取股票/ETF/指数、外汇与加密货币的最新报价与历史序列。支持运行、查询、配置、查看状态。当你要查行情时触发。",
+  "descriptionZh": "金融数据:用公共 API 获取股票/ETF/指数、外汇与加密货币的最新报价与历史序列。支持运行、查询、配置、查看状态。当你要查行情时触发。",
   "version": "1.1.2",
   "category": "ACTION",
   "subcategory": "OTHER",
@@ -11,10 +11,11 @@
   "author": "CrabClaw",
   "license": "Apache-2.0",
   "tags": [
-    "coder-youhua",
-    "中文优化",
-    "AI",
-    "金融"
+    "金融",
+    "市场数据",
+    "股票",
+    "外汇",
+    "加密货币"
   ],
   "timeout": 30,
   "retryCount": 0,
@@ -25,7 +26,7 @@
   "acosmi": {
     "storeId": "2fe20295-19b1-4188-a954-17cdaf84b3d7",
     "downloadCount": 7664,
-    "updatedAt": "2026-03-19 01:25",
+    "updatedAt": "2026-05-30 16:09",
     "createdAt": ""
   }
 }

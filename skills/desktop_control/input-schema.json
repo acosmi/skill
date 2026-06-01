@@ -1,0 +1,62 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "click",
+        "type",
+        "hotkey",
+        "screenshot",
+        "find_image",
+        "move_mouse",
+        "scroll",
+        "window_list",
+        "window_focus",
+        "window_resize"
+      ],
+      "description": "桌面操作"
+    },
+    "x": {
+      "type": "integer",
+      "description": "X 坐标"
+    },
+    "y": {
+      "type": "integer",
+      "description": "Y 坐标"
+    },
+    "text": {
+      "type": "string",
+      "description": "输入文本或热键组合"
+    },
+    "image": {
+      "type": "string",
+      "description": "要查找的图像路径（find_image 时使用）"
+    },
+    "window": {
+      "type": "string",
+      "description": "窗口标题（window_focus 时使用）"
+    },
+    "region": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "integer"
+        },
+        "y": {
+          "type": "integer"
+        },
+        "w": {
+          "type": "integer"
+        },
+        "h": {
+          "type": "integer"
+        }
+      },
+      "description": "截图区域"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "key": "proactive_agent",
+  "name": "主动型智能体",
+  "nameZh": "主动型智能体",
+  "description": "主动型智能体：让 AI 预判需求、安排定时任务、缓冲工作并自主反思，从被动执行转为主动协作。支持 WAL 协议与自主调度。当需要需求预判或周期性主动执行时触发。",
+  "descriptionZh": "主动型智能体：让 AI 预判需求、安排定时任务、缓冲工作并自主反思，从被动执行转为主动协作。支持 WAL 协议与自主调度。当需要需求预判或周期性主动执行时触发。",
+  "version": "3.1.0",
+  "category": "ACTION",
+  "subcategory": "AUTOMATION",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "主动",
+    "智能体",
+    "定时任务",
+    "需求预判",
+    "自动化"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "e73f90eb-8b7c-4eb5-b93e-fb586c5ab5cb",
+    "downloadCount": 88283,
+    "updatedAt": "2026-05-30 15:20",
+    "createdAt": ""
+  }
+}

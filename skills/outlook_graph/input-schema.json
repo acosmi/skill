@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "list_mail",
+        "read_mail",
+        "send_mail",
+        "list_events",
+        "create_event",
+        "list_contacts",
+        "list_folders"
+      ],
+      "description": "操作类型"
+    },
+    "query": {
+      "type": "string",
+      "description": "搜索或过滤条件"
+    },
+    "id": {
+      "type": "string",
+      "description": "邮件/事件 ID"
+    },
+    "to": {
+      "type": "string",
+      "description": "收件人"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "start": {
+      "type": "string",
+      "description": "事件开始时间 ISO 格式"
+    },
+    "end": {
+      "type": "string",
+      "description": "事件结束时间"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

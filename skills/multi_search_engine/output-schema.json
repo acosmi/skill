@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "snippet": {
+            "type": "string"
+          },
+          "engine": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "搜索结果列表"
+    },
+    "total": {
+      "type": "integer",
+      "description": "总结果数"
+    },
+    "engines_used": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "results"
+  ]
+}

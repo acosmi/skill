@@ -1,9 +1,9 @@
 {
   "key": "ga4_analytics",
-  "name": "GA4 分析",
-  "nameZh": "GA4 分析",
-  "description": "CrabClaw AgentSkills 捆绑包是 Google Analytics 4、Search Console 和 Index",
-  "descriptionZh": "CrabClaw AgentSkills 捆绑包是 Google Analytics 4、Search Console 和 Index",
+  "name": "GA4 分析集成",
+  "nameZh": "GA4 分析集成",
+  "description": "GA4 分析集成:整合 Google Analytics 4、Search Console 与索引数据,查询站点流量与搜索表现。当用户想分析网站数据或 SEO 表现时触发。",
+  "descriptionZh": "GA4 分析集成:整合 Google Analytics 4、Search Console 与索引数据,查询站点流量与搜索表现。当用户想分析网站数据或 SEO 表现时触发。",
   "version": "1.0.0",
   "category": "ACTION",
   "subcategory": "OTHER",
@@ -11,10 +11,10 @@
   "author": "CrabClaw",
   "license": "Apache-2.0",
   "tags": [
-    "coder-youhua",
-    "中文优化",
-    "搜索",
-    "API"
+    "GA4",
+    "网站分析",
+    "Search Console",
+    "流量数据"
   ],
   "timeout": 30,
   "retryCount": 0,
@@ -25,7 +25,7 @@
   "acosmi": {
     "storeId": "21c70ae0-3956-4ba9-b6bb-4b0ffb919166",
     "downloadCount": 4936,
-    "updatedAt": "2026-03-19 01:25",
+    "updatedAt": "2026-05-30 16:16",
     "createdAt": ""
   }
 }

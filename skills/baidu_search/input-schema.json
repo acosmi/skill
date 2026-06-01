@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "query": {
+      "type": "string",
+      "description": "搜索关键词"
+    },
+    "count": {
+      "type": "integer",
+      "description": "返回结果数，默认 10"
+    },
+    "time_range": {
+      "type": "string",
+      "enum": [
+        "day",
+        "week",
+        "month",
+        "year"
+      ],
+      "description": "时间过滤"
+    },
+    "site": {
+      "type": "string",
+      "description": "站内搜索限定域名"
+    }
+  },
+  "required": [
+    "query"
+  ]
+}

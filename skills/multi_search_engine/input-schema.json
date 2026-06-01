@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {
+    "query": {
+      "type": "string",
+      "description": "搜索关键词"
+    },
+    "engines": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "指定搜索引擎（留空使用全部），可选：baidu/google/bing/duckduckgo/sogou/360/zhihu/bilibili/yandex/brave/wolfram 等"
+    },
+    "time_range": {
+      "type": "string",
+      "enum": [
+        "day",
+        "week",
+        "month",
+        "year"
+      ],
+      "description": "时间范围过滤"
+    },
+    "site": {
+      "type": "string",
+      "description": "站内搜索限定域名"
+    },
+    "max_results": {
+      "type": "integer",
+      "description": "每个引擎最大结果数，默认 5"
+    }
+  },
+  "required": [
+    "query"
+  ]
+}

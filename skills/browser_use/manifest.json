@@ -1,0 +1,32 @@
+{
+  "key": "browser_use",
+  "name": "Browser Use 浏览器自动化",
+  "nameZh": "Browser Use 浏览器自动化",
+  "description": "Browser Use 浏览器自动化：通过 CLI 自动化浏览器交互，支持导航、点击、输入、截图、数据提取、滚动与等待，可用真实 Chromium 或无头模式。当需要自动化网页操作或抓取时触发。",
+  "descriptionZh": "Browser Use 浏览器自动化：通过 CLI 自动化浏览器交互，支持导航、点击、输入、截图、数据提取、滚动与等待，可用真实 Chromium 或无头模式。当需要自动化网页操作或抓取时触发。",
+  "version": "1.0.2",
+  "category": "ACTION",
+  "subcategory": "RESEARCH",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "浏览器",
+    "自动化",
+    "Chromium",
+    "抓取",
+    "无头"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "0470d600-ce57-49d2-a921-a1ca24a4c2f6",
+    "downloadCount": 23414,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

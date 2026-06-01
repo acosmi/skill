@@ -1,0 +1,32 @@
+{
+  "key": "summarize",
+  "name": "内容摘要",
+  "nameZh": "内容摘要",
+  "description": "内容摘要：对网页、PDF、图片、音频、YouTube 视频或纯文本生成摘要，支持要点/段落/一句话/结构化格式，无需 API 密钥。当需要快速提炼长内容时触发。",
+  "descriptionZh": "内容摘要：对网页、PDF、图片、音频、YouTube 视频或纯文本生成摘要，支持要点/段落/一句话/结构化格式，无需 API 密钥。当需要快速提炼长内容时触发。",
+  "version": "1.0.0",
+  "category": "TRANSFORM",
+  "subcategory": "MEDIA",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "摘要",
+    "网页",
+    "PDF",
+    "YouTube",
+    "音频"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "6a6e9633-2586-46e6-8a1b-bd49110278ff",
+    "downloadCount": 136116,
+    "updatedAt": "2026-05-30 15:20",
+    "createdAt": ""
+  }
+}

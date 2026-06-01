@@ -1,0 +1,32 @@
+{
+  "key": "outlook_graph",
+  "name": "Outlook & Microsoft Graph",
+  "nameZh": "Outlook & Microsoft Graph",
+  "description": "Outlook & Microsoft Graph：用预置访问令牌经 Graph 管理 Outlook 邮件、日历、联系人与文件夹（列表/读取/发送/创建事件等），适合企业用户。当需要操作 Outlook/Microsoft 365 时触发。",
+  "descriptionZh": "Outlook & Microsoft Graph：用预置访问令牌经 Graph 管理 Outlook 邮件、日历、联系人与文件夹（列表/读取/发送/创建事件等），适合企业用户。当需要操作 Outlook/Microsoft 365 时触发。",
+  "version": "1.0.2",
+  "category": "ACTION",
+  "subcategory": "API_INTEGRATION",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "Outlook",
+    "Microsoft365",
+    "邮件",
+    "日历",
+    "Graph"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "8e32e342-42b2-4289-a209-33a94f6077dc",
+    "downloadCount": 30393,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

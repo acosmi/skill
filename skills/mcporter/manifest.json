@@ -1,0 +1,32 @@
+{
+  "key": "mcporter",
+  "name": "MCP 服务器管理",
+  "nameZh": "MCP 服务器管理",
+  "description": "MCP 服务器管理：用 mcporter CLI 列出、添加、授权、调用 MCP 服务器与工具，支持 HTTP/stdio 模式、即时服务器、配置编辑与类型生成。当需要管理或调用 MCP 服务器时触发。",
+  "descriptionZh": "MCP 服务器管理：用 mcporter CLI 列出、添加、授权、调用 MCP 服务器与工具，支持 HTTP/stdio 模式、即时服务器、配置编辑与类型生成。当需要管理或调用 MCP 服务器时触发。",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "API_INTEGRATION",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "MCP",
+    "服务器",
+    "工具",
+    "集成",
+    "CLI"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "09d2b5d7-2119-4d6d-9239-8cc3de3cc895",
+    "downloadCount": 34343,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

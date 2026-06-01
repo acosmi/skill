@@ -1,0 +1,32 @@
+{
+  "key": "notion",
+  "name": "Notion",
+  "nameZh": "Notion",
+  "description": "Notion：通过 Notion API 创建/更新/搜索页面、查询与创建数据库、管理内容块，实现工作区自动化。当需要操作 Notion 页面或数据库时触发。",
+  "descriptionZh": "Notion：通过 Notion API 创建/更新/搜索页面、查询与创建数据库、管理内容块，实现工作区自动化。当需要操作 Notion 页面或数据库时触发。",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "AUTOMATION",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "Notion",
+    "笔记",
+    "数据库",
+    "知识库",
+    "协作"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "3b605f5a-8617-4dd8-96dd-b4c4636d1ed8",
+    "downloadCount": 51231,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

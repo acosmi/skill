@@ -1,0 +1,32 @@
+{
+  "key": "weather",
+  "name": "天气查询",
+  "nameZh": "天气查询",
+  "description": "天气查询：获取全球城市当前天气与多日预报，支持摄氏/华氏，无需 API 密钥开箱即用。当用户问天气、气温、要不要带伞、未来几天天气时触发。",
+  "descriptionZh": "天气查询：获取全球城市当前天气与多日预报，支持摄氏/华氏，无需 API 密钥开箱即用。当用户问天气、气温、要不要带伞、未来几天天气时触发。",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "PRODUCTIVITY",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "天气",
+    "预报",
+    "气温",
+    "出行",
+    "查询"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "813f4687-214b-48f0-baee-055a1a039aed",
+    "downloadCount": 84562,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

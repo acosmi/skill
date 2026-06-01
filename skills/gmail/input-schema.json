@@ -1,0 +1,55 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "list",
+        "read",
+        "send",
+        "reply",
+        "forward",
+        "search",
+        "label",
+        "draft",
+        "trash"
+      ],
+      "description": "Gmail 操作"
+    },
+    "query": {
+      "type": "string",
+      "description": "搜索条件（Gmail 搜索语法）"
+    },
+    "id": {
+      "type": "string",
+      "description": "邮件 ID"
+    },
+    "to": {
+      "type": "string",
+      "description": "收件人"
+    },
+    "cc": {
+      "type": "string",
+      "description": "抄送"
+    },
+    "subject": {
+      "type": "string",
+      "description": "邮件主题"
+    },
+    "body": {
+      "type": "string",
+      "description": "邮件正文（HTML 或纯文本）"
+    },
+    "label": {
+      "type": "string",
+      "description": "标签名"
+    },
+    "max_results": {
+      "type": "integer",
+      "description": "列表最大数量，默认 20"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "key": "himalaya_email",
+  "name": "Himalaya 邮件 CLI",
+  "nameZh": "Himalaya 邮件 CLI",
+  "description": "Himalaya 邮件 CLI：经 IMAP/SMTP 管理邮件的命令行工具，支持列出、读取、撰写、回复、转发、搜索、移动、标记，支持多账号与 MIME 附件。当需要命令行收发管理邮件时触发。",
+  "descriptionZh": "Himalaya 邮件 CLI：经 IMAP/SMTP 管理邮件的命令行工具，支持列出、读取、撰写、回复、转发、搜索、移动、标记，支持多账号与 MIME 附件。当需要命令行收发管理邮件时触发。",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "RESEARCH",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "邮件",
+    "Himalaya",
+    "IMAP",
+    "SMTP",
+    "多账号"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "a5bcf2d1-e1e3-4dec-bcd4-405f8a1c7aec",
+    "downloadCount": 26192,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

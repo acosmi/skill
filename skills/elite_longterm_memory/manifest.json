@@ -1,0 +1,32 @@
+{
+  "key": "elite_longterm_memory",
+  "name": "精英长期记忆系统",
+  "nameZh": "精英长期记忆系统",
+  "description": "精英长期记忆系统：集成 WAL 协议、向量搜索、git-notes 与云备份的智能体终极记忆，支持存储/召回/搜索/同步/备份/清理，跨工具永不丢上下文。当需要长期记忆存取或备份时触发。",
+  "descriptionZh": "精英长期记忆系统：集成 WAL 协议、向量搜索、git-notes 与云备份的智能体终极记忆，支持存储/召回/搜索/同步/备份/清理，跨工具永不丢上下文。当需要长期记忆存取或备份时触发。",
+  "version": "1.2.3",
+  "category": "ACTION",
+  "subcategory": "PRODUCTIVITY",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "长期记忆",
+    "向量搜索",
+    "WAL",
+    "云备份",
+    "上下文"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "4692fa20-6ee3-462b-8b04-fcd1c5a14208",
+    "downloadCount": 27762,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

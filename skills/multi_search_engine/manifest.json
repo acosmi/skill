@@ -1,0 +1,32 @@
+{
+  "key": "multi_search_engine",
+  "name": "多搜索引擎聚合",
+  "nameZh": "多搜索引擎聚合",
+  "description": "多搜索引擎聚合：集成 17 个搜索引擎（8 中文 + 9 国际），支持高级语法、时间过滤、站内搜索、隐私引擎与 WolframAlpha 知识查询，完全免费。当需要多源网络搜索时触发。",
+  "descriptionZh": "多搜索引擎聚合：集成 17 个搜索引擎（8 中文 + 9 国际），支持高级语法、时间过滤、站内搜索、隐私引擎与 WolframAlpha 知识查询，完全免费。当需要多源网络搜索时触发。",
+  "version": "2.0.1",
+  "category": "ACTION",
+  "subcategory": "RESEARCH",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "搜索",
+    "聚合",
+    "多引擎",
+    "隐私",
+    "免费"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "5704fad1-c824-4de7-a4f3-86d2c904462b",
+    "downloadCount": 40634,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

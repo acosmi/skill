@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "navigate",
+        "click",
+        "type",
+        "snapshot",
+        "scroll",
+        "wait",
+        "evaluate"
+      ],
+      "description": "浏览器操作类型"
+    },
+    "url": {
+      "type": "string",
+      "description": "目标网页 URL（navigate 时必填）"
+    },
+    "selector": {
+      "type": "string",
+      "description": "CSS 选择器或文本内容定位元素（click/type 时使用）"
+    },
+    "text": {
+      "type": "string",
+      "description": "要输入的文本内容（type 时必填）"
+    },
+    "script": {
+      "type": "string",
+      "description": "要执行的 JavaScript 代码（evaluate 时使用）"
+    },
+    "timeout": {
+      "type": "integer",
+      "description": "操作超时时间（秒），默认 30"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

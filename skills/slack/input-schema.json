@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "send",
+        "react",
+        "pin",
+        "unpin",
+        "list_channels",
+        "history",
+        "upload"
+      ],
+      "description": "Slack 操作"
+    },
+    "channel": {
+      "type": "string",
+      "description": "频道名或 ID"
+    },
+    "message": {
+      "type": "string",
+      "description": "消息内容"
+    },
+    "emoji": {
+      "type": "string",
+      "description": "表情符号名称（react 时使用）"
+    },
+    "thread_ts": {
+      "type": "string",
+      "description": "线程时间戳（回复消息时使用）"
+    },
+    "file": {
+      "type": "string",
+      "description": "上传文件路径"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

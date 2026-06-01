@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "list_models",
+        "chat",
+        "status",
+        "switch_model"
+      ],
+      "description": "操作类型"
+    },
+    "prompt": {
+      "type": "string",
+      "description": "对话内容（chat 时使用）"
+    },
+    "model": {
+      "type": "string",
+      "description": "模型名称"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

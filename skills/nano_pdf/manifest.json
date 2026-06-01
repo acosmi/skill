@@ -1,0 +1,32 @@
+{
+  "key": "nano_pdf",
+  "name": "PDF 自然语言编辑",
+  "nameZh": "PDF 自然语言编辑",
+  "description": "PDF 自然语言编辑：用自然语言指令编辑 PDF（增删页、文字/图片修改、合并拆分等），无需学习复杂工具。当需要修改/处理 PDF 文件时触发。",
+  "descriptionZh": "PDF 自然语言编辑：用自然语言指令编辑 PDF（增删页、文字/图片修改、合并拆分等），无需学习复杂工具。当需要修改/处理 PDF 文件时触发。",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "PRODUCTIVITY",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "PDF",
+    "编辑",
+    "文档",
+    "自然语言",
+    "处理"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "12f875af-a32e-4f55-8b7d-42ec30c1aa2d",
+    "downloadCount": 52675,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

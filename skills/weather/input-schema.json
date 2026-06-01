@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "city": {
+      "type": "string",
+      "description": "城市名称，支持中英文（如 北京、Tokyo、New York）"
+    },
+    "days": {
+      "type": "integer",
+      "description": "预报天数（1-7），默认 3"
+    },
+    "units": {
+      "type": "string",
+      "enum": [
+        "metric",
+        "imperial"
+      ],
+      "description": "温度单位：metric=摄氏度, imperial=华氏度，默认 metric"
+    }
+  },
+  "required": [
+    "city"
+  ]
+}

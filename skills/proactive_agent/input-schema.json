@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "mode": {
+      "type": "string",
+      "enum": [
+        "anticipate",
+        "schedule",
+        "buffer",
+        "reflect"
+      ],
+      "description": "主动模式：anticipate=需求预判, schedule=定时任务, buffer=工作缓冲, reflect=自主反思"
+    },
+    "task": {
+      "type": "string",
+      "description": "任务描述或定时任务内容"
+    },
+    "schedule": {
+      "type": "string",
+      "description": "cron 表达式或时间间隔（schedule 模式时使用）"
+    },
+    "context": {
+      "type": "string",
+      "description": "当前上下文信息，用于需求预判"
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "urgent"
+      ],
+      "description": "任务优先级"
+    }
+  },
+  "required": [
+    "mode"
+  ]
+}

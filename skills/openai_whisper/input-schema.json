@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "properties": {
+    "audio_file": {
+      "type": "string",
+      "description": "音频文件路径，支持 mp3/wav/m4a/flac/ogg 格式"
+    },
+    "language": {
+      "type": "string",
+      "description": "音频语言代码（如 zh/en/ja），留空自动检测"
+    },
+    "model": {
+      "type": "string",
+      "enum": [
+        "tiny",
+        "base",
+        "small",
+        "medium",
+        "large"
+      ],
+      "description": "Whisper 模型大小，越大越准但越慢"
+    },
+    "output_format": {
+      "type": "string",
+      "enum": [
+        "text",
+        "srt",
+        "vtt",
+        "json"
+      ],
+      "description": "输出格式：纯文本/SRT字幕/VTT字幕/JSON"
+    },
+    "translate": {
+      "type": "boolean",
+      "description": "是否翻译为英文"
+    }
+  },
+  "required": [
+    "audio_file"
+  ]
+}

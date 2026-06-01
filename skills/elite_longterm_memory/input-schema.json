@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "store",
+        "recall",
+        "search",
+        "sync",
+        "backup",
+        "prune"
+      ],
+      "description": "记忆操作"
+    },
+    "content": {
+      "type": "string",
+      "description": "记忆内容"
+    },
+    "query": {
+      "type": "string",
+      "description": "语义搜索查询"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "标签"
+    },
+    "importance": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ],
+      "description": "重要程度"
+    },
+    "ttl": {
+      "type": "string",
+      "description": "记忆有效期（如 7d/30d/permanent）"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

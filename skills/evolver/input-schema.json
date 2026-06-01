@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "analyze",
+        "propose",
+        "evolve",
+        "rollback",
+        "history"
+      ],
+      "description": "进化操作：analyze=分析能力, propose=提议改进, evolve=执行进化, rollback=回滚, history=查看历史"
+    },
+    "target": {
+      "type": "string",
+      "description": "目标能力或技能名"
+    },
+    "proposal": {
+      "type": "string",
+      "description": "改进提议描述"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

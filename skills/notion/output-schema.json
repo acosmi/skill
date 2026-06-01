@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "data": {
+      "type": "object",
+      "description": "页面/数据库/块的详细数据"
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "description": "搜索或查询结果列表"
+    },
+    "page_url": {
+      "type": "string",
+      "description": "创建的页面 URL"
+    }
+  },
+  "required": [
+    "success"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "key": "trello",
+  "name": "Trello 看板",
+  "nameZh": "Trello 看板",
+  "description": "Trello 看板：经 Trello REST API 管理看板、列表、卡片、成员与标签，覆盖项目任务的完整生命周期。当需要管理 Trello 看板或卡片时触发。",
+  "descriptionZh": "Trello 看板：经 Trello REST API 管理看板、列表、卡片、成员与标签，覆盖项目任务的完整生命周期。当需要管理 Trello 看板或卡片时触发。",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "API_INTEGRATION",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "Trello",
+    "看板",
+    "任务",
+    "项目管理",
+    "卡片"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "182061db-28df-4086-8fbb-e160f274336e",
+    "downloadCount": 22522,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "key": "github",
+  "name": "GitHub",
+  "nameZh": "GitHub",
+  "description": "GitHub：用 gh CLI 管理 issue、PR（创建/审查/合并）、查看 CI/CD 运行、克隆仓库与高级 API 查询。当需要在 GitHub 上协作开发时触发。",
+  "descriptionZh": "GitHub：用 gh CLI 管理 issue、PR（创建/审查/合并）、查看 CI/CD 运行、克隆仓库与高级 API 查询。当需要在 GitHub 上协作开发时触发。",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "PRODUCTIVITY",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "GitHub",
+    "git",
+    "PR",
+    "issue",
+    "CI/CD"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "36a3057b-ea37-4820-b62f-5ba619c7b66e",
+    "downloadCount": 98519,
+    "updatedAt": "2026-05-30 15:20",
+    "createdAt": ""
+  }
+}

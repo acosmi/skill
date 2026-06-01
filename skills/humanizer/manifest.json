@@ -1,0 +1,32 @@
+{
+  "key": "humanizer",
+  "name": "AI 文本去痕",
+  "nameZh": "AI 文本去痕",
+  "description": "AI 文本去痕：检测并修复 24 种 AI 写作特征（em 破折号滥用、AI 词汇、冗余连词等），让文本更自然像人写，可保意。当需要让 AI 文本更像人写时触发。",
+  "descriptionZh": "AI 文本去痕：检测并修复 24 种 AI 写作特征（em 破折号滥用、AI 词汇、冗余连词等），让文本更自然像人写，可保意。当需要让 AI 文本更像人写时触发。",
+  "version": "1.0.0",
+  "category": "TRANSFORM",
+  "subcategory": "WRITING",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "文本",
+    "去AI味",
+    "改写",
+    "润色",
+    "写作"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "b5149b68-e0c2-4279-a60c-723d7cb0c0ae",
+    "downloadCount": 48423,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

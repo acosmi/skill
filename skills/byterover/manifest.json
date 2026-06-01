@@ -1,0 +1,32 @@
+{
+  "key": "byterover",
+  "name": "智能知识管理（ByteRover）",
+  "nameZh": "智能知识管理（ByteRover）",
+  "description": "智能知识管理（ByteRover）：用 brv 命令存储与检索项目模式、决策与上下文，任务开始前先收集上下文，跨工具复用记忆。当需要保存或调取项目知识/上下文时触发。",
+  "descriptionZh": "智能知识管理（ByteRover）：用 brv 命令存储与检索项目模式、决策与上下文，任务开始前先收集上下文，跨工具复用记忆。当需要保存或调取项目知识/上下文时触发。",
+  "version": "2.0.0",
+  "category": "ACTION",
+  "subcategory": "RESEARCH",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "知识管理",
+    "记忆",
+    "上下文",
+    "ByteRover",
+    "检索"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "79d69ac5-3f86-4f0b-8adf-09d8c01a01cf",
+    "downloadCount": 27971,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

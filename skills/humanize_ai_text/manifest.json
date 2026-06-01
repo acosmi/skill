@@ -1,0 +1,32 @@
+{
+  "key": "humanize_ai_text",
+  "name": "AI 文本人性化",
+  "nameZh": "AI 文本人性化",
+  "description": "AI 文本人性化：把 ChatGPT/Claude 等生成的文本改写得更自然、更具人情味，帮助通过 GPTZero 等 AI 检测器。当需要降低 AI 检测率或让文本更像人写时触发。",
+  "descriptionZh": "AI 文本人性化：把 ChatGPT/Claude 等生成的文本改写得更自然、更具人情味，帮助通过 GPTZero 等 AI 检测器。当需要降低 AI 检测率或让文本更像人写时触发。",
+  "version": "1.0.1",
+  "category": "TRANSFORM",
+  "subcategory": "WRITING",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "文本",
+    "人性化",
+    "降AI率",
+    "改写",
+    "检测器"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "b28b0d03-b706-4d14-876d-ea13171e7e85",
+    "downloadCount": 29085,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

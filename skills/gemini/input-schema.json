@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "prompt": {
+      "type": "string",
+      "description": "问题或指令"
+    },
+    "task": {
+      "type": "string",
+      "enum": [
+        "qa",
+        "summarize",
+        "generate",
+        "analyze"
+      ],
+      "description": "任务类型"
+    },
+    "input": {
+      "type": "string",
+      "description": "附加输入内容（URL 或文本）"
+    },
+    "model": {
+      "type": "string",
+      "description": "Gemini 模型名，默认 gemini-2.0-flash"
+    }
+  },
+  "required": [
+    "prompt"
+  ]
+}

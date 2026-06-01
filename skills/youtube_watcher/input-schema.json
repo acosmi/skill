@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "properties": {
+    "url": {
+      "type": "string",
+      "description": "YouTube 视频 URL"
+    },
+    "task": {
+      "type": "string",
+      "enum": [
+        "summarize",
+        "qa",
+        "extract"
+      ],
+      "description": "任务类型：summarize=生成摘要, qa=问答, extract=提取特定信息"
+    },
+    "question": {
+      "type": "string",
+      "description": "问题（qa 模式时使用）"
+    },
+    "topic": {
+      "type": "string",
+      "description": "要提取的主题（extract 模式时使用）"
+    }
+  },
+  "required": [
+    "url"
+  ]
+}

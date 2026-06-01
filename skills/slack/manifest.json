@@ -1,0 +1,32 @@
+{
+  "key": "slack",
+  "name": "Slack",
+  "nameZh": "Slack",
+  "description": "Slack：发送消息、添加表情回应、置顶/取消置顶、列频道、读历史、上传文件，覆盖频道与私信的完整自动化。当需要在 Slack 收发消息或管理频道时触发。",
+  "descriptionZh": "Slack：发送消息、添加表情回应、置顶/取消置顶、列频道、读历史、上传文件，覆盖频道与私信的完整自动化。当需要在 Slack 收发消息或管理频道时触发。",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "AUTOMATION",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "Slack",
+    "消息",
+    "协作",
+    "频道",
+    "团队"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "c6ad3cd0-66fe-4bea-9649-2a31c8a5c0af",
+    "downloadCount": 25366,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

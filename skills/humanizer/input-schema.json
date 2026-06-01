@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "description": "需要去痕处理的 AI 生成文本"
+    },
+    "intensity": {
+      "type": "string",
+      "enum": [
+        "light",
+        "moderate",
+        "aggressive"
+      ],
+      "description": "去痕强度：light=轻度调整, moderate=中度改写, aggressive=深度重写"
+    },
+    "preserve_meaning": {
+      "type": "boolean",
+      "description": "是否严格保留原意，默认 true"
+    },
+    "style": {
+      "type": "string",
+      "enum": [
+        "casual",
+        "professional",
+        "academic",
+        "creative"
+      ],
+      "description": "输出文风"
+    }
+  },
+  "required": [
+    "text"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "search",
+        "create",
+        "read",
+        "update",
+        "delete",
+        "link",
+        "list_tags",
+        "backlinks"
+      ],
+      "description": "笔记操作类型"
+    },
+    "vault": {
+      "type": "string",
+      "description": "知识库路径"
+    },
+    "title": {
+      "type": "string",
+      "description": "笔记标题"
+    },
+    "content": {
+      "type": "string",
+      "description": "笔记内容（Markdown 格式）"
+    },
+    "query": {
+      "type": "string",
+      "description": "搜索关键词"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "笔记标签"
+    },
+    "link_to": {
+      "type": "string",
+      "description": "链接目标笔记标题（link 操作时使用）"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

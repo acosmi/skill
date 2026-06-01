@@ -1,0 +1,32 @@
+{
+  "key": "ontology",
+  "name": "知识图谱记忆",
+  "nameZh": "知识图谱记忆",
+  "description": "知识图谱记忆：构建类型化知识图谱，创建/查询/关联/遍历/更新/删除实体（人员、项目、任务、事件、文档、概念），用于结构化智能体长期记忆。当需要结构化存取关系型记忆时触发。",
+  "descriptionZh": "知识图谱记忆：构建类型化知识图谱，创建/查询/关联/遍历/更新/删除实体（人员、项目、任务、事件、文档、概念），用于结构化智能体长期记忆。当需要结构化存取关系型记忆时触发。",
+  "version": "1.0.4",
+  "category": "ACTION",
+  "subcategory": "PRODUCTIVITY",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "知识图谱",
+    "记忆",
+    "实体",
+    "关系",
+    "结构化"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "4789316f-dde4-4f36-af24-167d89c8ab65",
+    "downloadCount": 96182,
+    "updatedAt": "2026-05-30 15:20",
+    "createdAt": ""
+  }
+}

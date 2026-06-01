@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "output_path": {
+      "type": "string",
+      "description": "输出文件路径"
+    },
+    "pages": {
+      "type": "integer",
+      "description": "结果 PDF 页数"
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "success",
+    "output_path"
+  ]
+}

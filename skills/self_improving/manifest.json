@@ -1,0 +1,32 @@
+{
+  "key": "self_improving",
+  "name": "主动自进化智能体",
+  "nameZh": "主动自进化智能体",
+  "description": "主动自进化智能体：通过自我反思、自我批评、学习沉淀、记忆组织与召回实现持续进化，是桌面智能体的核心 meta 技能。当需要复盘、自我改进或沉淀经验时触发。",
+  "descriptionZh": "主动自进化智能体：通过自我反思、自我批评、学习沉淀、记忆组织与召回实现持续进化，是桌面智能体的核心 meta 技能。当需要复盘、自我改进或沉淀经验时触发。",
+  "version": "1.2.14",
+  "category": "ACTION",
+  "subcategory": "PRODUCTIVITY",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "自进化",
+    "反思",
+    "自我批评",
+    "记忆",
+    "元技能"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "6e6e4698-bf7a-4456-ac1c-8cbd05b66313",
+    "downloadCount": 54833,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

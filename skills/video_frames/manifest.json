@@ -1,0 +1,32 @@
+{
+  "key": "video_frames",
+  "name": "视频帧提取",
+  "nameZh": "视频帧提取",
+  "description": "视频帧提取：用 ffmpeg 从视频按时间戳提取指定帧或短片段，支持精确定位与 png/jpg/gif 输出，适合分析、缩略图与内容提取。当需要从视频抽帧或截取片段时触发。",
+  "descriptionZh": "视频帧提取：用 ffmpeg 从视频按时间戳提取指定帧或短片段，支持精确定位与 png/jpg/gif 输出，适合分析、缩略图与内容提取。当需要从视频抽帧或截取片段时触发。",
+  "version": "1.0.0",
+  "category": "TRANSFORM",
+  "subcategory": "MEDIA",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "视频",
+    "抽帧",
+    "ffmpeg",
+    "缩略图",
+    "片段"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "5f16a3c9-812c-476f-b9b0-79f2617cb90a",
+    "downloadCount": 24690,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "object",
+  "properties": {
+    "service": {
+      "type": "string",
+      "enum": [
+        "gmail",
+        "calendar",
+        "drive",
+        "contacts",
+        "sheets",
+        "docs"
+      ],
+      "description": "Google 服务类型"
+    },
+    "action": {
+      "type": "string",
+      "enum": [
+        "list",
+        "get",
+        "create",
+        "update",
+        "delete",
+        "search",
+        "send"
+      ],
+      "description": "操作类型"
+    },
+    "query": {
+      "type": "string",
+      "description": "搜索关键词或过滤条件"
+    },
+    "id": {
+      "type": "string",
+      "description": "资源 ID（get/update/delete 时使用）"
+    },
+    "data": {
+      "type": "object",
+      "description": "创建或更新的数据内容"
+    }
+  },
+  "required": [
+    "service",
+    "action"
+  ]
+}

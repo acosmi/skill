@@ -1,0 +1,42 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "list",
+        "get",
+        "create",
+        "update",
+        "delete",
+        "search",
+        "send",
+        "webhook"
+      ],
+      "description": "API 操作"
+    },
+    "resource": {
+      "type": "string",
+      "description": "资源类型"
+    },
+    "id": {
+      "type": "string",
+      "description": "资源 ID"
+    },
+    "data": {
+      "type": "object",
+      "description": "请求数据"
+    },
+    "query": {
+      "type": "string",
+      "description": "搜索/过滤条件"
+    },
+    "params": {
+      "type": "object",
+      "description": "附加参数"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

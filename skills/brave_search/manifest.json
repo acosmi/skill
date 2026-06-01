@@ -1,0 +1,32 @@
+{
+  "key": "brave_search",
+  "name": "Brave 网络搜索",
+  "nameZh": "Brave 网络搜索",
+  "description": "Brave 网络搜索：通过 Brave Search API 做网页搜索与内容提取，支持时效过滤与地区/语言，轻量无需浏览器。当需要快速网页搜索或事实核查时触发。",
+  "descriptionZh": "Brave 网络搜索：通过 Brave Search API 做网页搜索与内容提取，支持时效过滤与地区/语言，轻量无需浏览器。当需要快速网页搜索或事实核查时触发。",
+  "version": "1.0.1",
+  "category": "ACTION",
+  "subcategory": "RESEARCH",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "搜索",
+    "Brave",
+    "网页",
+    "事实核查",
+    "API"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "a86258de-0fde-4db2-a090-724eb775d32f",
+    "downloadCount": 36441,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

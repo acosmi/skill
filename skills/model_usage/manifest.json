@@ -1,0 +1,32 @@
+{
+  "key": "model_usage",
+  "name": "模型用量与成本统计",
+  "nameZh": "模型用量与成本统计",
+  "description": "模型用量与成本统计：用 CodexBar CLI 按模型汇总 Codex 或 Claude 的用量与成本，支持当前/全量模型明细，可输出 JSON/文本/表格。当需要查看模型花了多少 token 或成本时触发。",
+  "descriptionZh": "模型用量与成本统计：用 CodexBar CLI 按模型汇总 Codex 或 Claude 的用量与成本，支持当前/全量模型明细，可输出 JSON/文本/表格。当需要查看模型花了多少 token 或成本时触发。",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "PRODUCTIVITY",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "用量",
+    "成本",
+    "统计",
+    "模型",
+    "CodexBar"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "54742d73-31c1-4d0d-8bc5-f4524edad5b3",
+    "downloadCount": 23083,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

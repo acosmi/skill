@@ -1,0 +1,32 @@
+{
+  "key": "desktop_control",
+  "name": "桌面自动化控制",
+  "nameZh": "桌面自动化控制",
+  "description": "桌面自动化控制：鼠标控制、键盘输入、热键、屏幕截图、图像匹配定位与窗口管理，内置故障安全中止与边界检查。当需要自动化操作本机桌面应用时触发。",
+  "descriptionZh": "桌面自动化控制：鼠标控制、键盘输入、热键、屏幕截图、图像匹配定位与窗口管理，内置故障安全中止与边界检查。当需要自动化操作本机桌面应用时触发。",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "MEDIA",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "桌面自动化",
+    "鼠标键盘",
+    "截图",
+    "图像匹配",
+    "窗口管理"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "df143af9-9ccb-4d2d-a600-99c99e118a2b",
+    "downloadCount": 25550,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

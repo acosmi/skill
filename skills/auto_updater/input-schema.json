@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "check",
+        "update_all",
+        "update_one",
+        "schedule",
+        "status"
+      ],
+      "description": "操作类型：check=检查更新, update_all=全部更新, update_one=更新单个, schedule=设置定时, status=查看状态"
+    },
+    "skill_key": {
+      "type": "string",
+      "description": "指定技能 key（update_one 时使用）"
+    },
+    "cron": {
+      "type": "string",
+      "description": "定时任务 cron 表达式（schedule 时使用），默认每天 3:00"
+    },
+    "notify": {
+      "type": "boolean",
+      "description": "更新后是否发送通知，默认 true"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

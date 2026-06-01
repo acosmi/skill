@@ -1,15 +1,42 @@
 ---
-name: crypto_price
-description: "加密货币价格 — CrabClaw AgentSkills 技能包是良性的。 `SKILL.md` 文件包含 inst"
-version: 0.2.2
-author: "CrabClaw"
-license: Apache-2.0
+name: crypto-price
+description: "加密货币价格:获取加密货币代币价格并生成 K 线蜡烛图。当需要查询币价或看走势图时触发。"
+when_to_use: "需要查询加密货币价格或生成蜡烛图时"
+argument-hint: "[action] (可选 input/output_format)"
+version: "1.0.0"
 ---
 
 # 加密货币价格
 
-加密货币价格 — CrabClaw AgentSkills 技能包是良性的。 `SKILL.md` 文件包含 inst
+获取加密货币代币价格并生成蜡烛图(K 线图)。
 
-## Usage
+## 何时使用
 
-This skill is mirrored from the Acosmi store. See `README.md` for full documentation.
+- 想查询某个代币当前价格
+- 需要查看价格走势
+- 想生成 K 线蜡烛图
+- 快速了解币价行情
+
+## 能力
+
+- run:获取价格并生成图表
+- query:查询指定代币价格
+- configure:配置参数
+- status:查看状态
+
+## 工作流
+
+1. 选择 action 并在 input 中提供代币名称或符号
+2. 获取价格数据
+3. 可生成蜡烛图
+4. 按 output_format 返回结果
+
+## 常见陷阱
+
+- 代币符号拼写错误会查不到
+- 行情数据有实时延迟
+- 图表生成依赖足够的历史数据
+
+## 输出
+
+- 代币价格数据与 K 线蜡烛图

@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "insight": {
+      "type": "string",
+      "description": "生成的洞察或改进建议"
+    },
+    "score": {
+      "type": "number",
+      "description": "质量评分 0-100"
+    },
+    "memories_updated": {
+      "type": "integer",
+      "description": "更新的记忆条数"
+    },
+    "improvements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "insight"
+  ]
+}

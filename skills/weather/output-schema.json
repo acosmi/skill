@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "properties": {
+    "city": {
+      "type": "string"
+    },
+    "current": {
+      "type": "object",
+      "properties": {
+        "temperature": {
+          "type": "number"
+        },
+        "condition": {
+          "type": "string"
+        },
+        "humidity": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        }
+      }
+    },
+    "forecast": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string"
+          },
+          "high": {
+            "type": "number"
+          },
+          "low": {
+            "type": "number"
+          },
+          "condition": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "city",
+    "current"
+  ]
+}

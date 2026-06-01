@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "source": {
+      "type": "string",
+      "description": "要摘要的内容来源：URL（网页/YouTube）、文件路径（PDF/图片/音频）或纯文本"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "bullet",
+        "paragraph",
+        "tldr",
+        "structured"
+      ],
+      "description": "摘要输出格式：bullet=要点列表, paragraph=段落, tldr=一句话, structured=结构化"
+    },
+    "language": {
+      "type": "string",
+      "description": "输出语言，默认与原文一致"
+    },
+    "max_length": {
+      "type": "integer",
+      "description": "摘要最大字数限制"
+    }
+  },
+  "required": [
+    "source"
+  ]
+}

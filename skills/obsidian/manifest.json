@@ -1,0 +1,32 @@
+{
+  "key": "obsidian",
+  "name": "Obsidian 笔记",
+  "nameZh": "Obsidian 笔记",
+  "description": "Obsidian 笔记：通过 obsidian-cli 操作纯 Markdown 知识库，支持笔记创建/读取/更新/删除、搜索、双链关联、标签与反链管理。当需要管理 Obsidian 笔记时触发。",
+  "descriptionZh": "Obsidian 笔记：通过 obsidian-cli 操作纯 Markdown 知识库，支持笔记创建/读取/更新/删除、搜索、双链关联、标签与反链管理。当需要管理 Obsidian 笔记时触发。",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "PRODUCTIVITY",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "Obsidian",
+    "笔记",
+    "Markdown",
+    "知识库",
+    "双链"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "e2347a9f-d81a-4d9b-9c0f-496e8896ec94",
+    "downloadCount": 46703,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

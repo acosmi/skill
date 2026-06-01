@@ -1,0 +1,32 @@
+{
+  "key": "news_summary",
+  "name": "全球新闻摘要",
+  "nameZh": "全球新闻摘要",
+  "description": "全球新闻摘要：从 BBC、路透社、NPR、半岛电视台等可信 RSS 获取新闻与每日简报，支持按主题分组并生成语音摘要。当需要看新闻头条、主题简报或每日简讯时触发。",
+  "descriptionZh": "全球新闻摘要：从 BBC、路透社、NPR、半岛电视台等可信 RSS 获取新闻与每日简报，支持按主题分组并生成语音摘要。当需要看新闻头条、主题简报或每日简讯时触发。",
+  "version": "1.0.1",
+  "category": "ACTION",
+  "subcategory": "MEDIA",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "新闻",
+    "简报",
+    "RSS",
+    "头条",
+    "语音"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "87ab56af-9f37-433f-a831-85e380297792",
+    "downloadCount": 21478,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

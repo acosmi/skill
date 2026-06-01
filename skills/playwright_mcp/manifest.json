@@ -1,0 +1,32 @@
+{
+  "key": "playwright_mcp",
+  "name": "Playwright MCP 浏览器",
+  "nameZh": "Playwright MCP 浏览器",
+  "description": "Playwright MCP 浏览器：经 Playwright MCP 服务器实现完整浏览器自动化，支持导航、点击、填写、截图、文本提取、下拉选择与悬停。当需要稳定的网页自动化或抓取时触发。",
+  "descriptionZh": "Playwright MCP 浏览器：经 Playwright MCP 服务器实现完整浏览器自动化，支持导航、点击、填写、截图、文本提取、下拉选择与悬停。当需要稳定的网页自动化或抓取时触发。",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "RESEARCH",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "Playwright",
+    "浏览器",
+    "自动化",
+    "MCP",
+    "抓取"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "7d0226b5-231c-4673-82e7-8058a09b1b21",
+    "downloadCount": 20245,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

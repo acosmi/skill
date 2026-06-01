@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "list",
+        "add",
+        "remove",
+        "authorize",
+        "call",
+        "status"
+      ],
+      "description": "MCP 操作"
+    },
+    "server": {
+      "type": "string",
+      "description": "MCP 服务器名称或 URL"
+    },
+    "tool": {
+      "type": "string",
+      "description": "工具名称（call 时使用）"
+    },
+    "params": {
+      "type": "object",
+      "description": "工具调用参数"
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "http",
+        "stdio"
+      ],
+      "description": "连接模式"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

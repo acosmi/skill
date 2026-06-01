@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "list",
+        "read",
+        "compose",
+        "reply",
+        "forward",
+        "search",
+        "move",
+        "flag"
+      ],
+      "description": "邮件操作"
+    },
+    "account": {
+      "type": "string",
+      "description": "邮件账号标识"
+    },
+    "folder": {
+      "type": "string",
+      "description": "邮箱文件夹（INBOX/Sent/Drafts 等）"
+    },
+    "id": {
+      "type": "string",
+      "description": "邮件 ID"
+    },
+    "to": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "query": {
+      "type": "string",
+      "description": "搜索关键词"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

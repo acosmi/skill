@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "store",
+        "retrieve",
+        "search",
+        "list",
+        "delete"
+      ],
+      "description": "知识管理操作"
+    },
+    "key": {
+      "type": "string",
+      "description": "知识条目键名"
+    },
+    "content": {
+      "type": "string",
+      "description": "知识内容（store 时使用）"
+    },
+    "query": {
+      "type": "string",
+      "description": "搜索查询（search 时使用）"
+    },
+    "category": {
+      "type": "string",
+      "description": "知识分类（pattern/decision/context）"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "discover",
+        "status",
+        "play",
+        "pause",
+        "stop",
+        "next",
+        "previous",
+        "volume",
+        "group",
+        "ungroup",
+        "favorite"
+      ],
+      "description": "音响控制操作"
+    },
+    "speaker": {
+      "type": "string",
+      "description": "音响设备名称或 ID"
+    },
+    "value": {
+      "type": "string",
+      "description": "操作参数（音量值 0-100、播放 URI 等）"
+    },
+    "group_members": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "分组成员列表（group 操作时使用）"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

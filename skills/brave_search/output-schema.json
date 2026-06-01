@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "properties": {
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "age": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "搜索结果"
+    },
+    "query": {
+      "type": "string"
+    },
+    "total": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "results"
+  ]
+}

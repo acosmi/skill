@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "quote",
+        "analyze",
+        "portfolio",
+        "watchlist",
+        "dividends",
+        "compare",
+        "trend"
+      ],
+      "description": "分析操作"
+    },
+    "symbol": {
+      "type": "string",
+      "description": "股票/加密货币代码（如 AAPL/BTC-USD）"
+    },
+    "symbols": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "多个代码（compare 时使用）"
+    },
+    "period": {
+      "type": "string",
+      "enum": [
+        "1d",
+        "5d",
+        "1mo",
+        "3mo",
+        "6mo",
+        "1y",
+        "5y"
+      ],
+      "description": "时间周期"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

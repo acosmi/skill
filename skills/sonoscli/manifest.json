@@ -1,0 +1,32 @@
+{
+  "key": "sonoscli",
+  "name": "Sonos 音响控制",
+  "nameZh": "Sonos 音响控制",
+  "description": "Sonos 音响控制：发现设备、查询状态、播放/暂停/上一首下一首、调音量、多房间分组，打造智能家居音频。当需要控制 Sonos 音响时触发。",
+  "descriptionZh": "Sonos 音响控制：发现设备、查询状态、播放/暂停/上一首下一首、调音量、多房间分组，打造智能家居音频。当需要控制 Sonos 音响时触发。",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "MEDIA",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "Sonos",
+    "音响",
+    "智能家居",
+    "播放控制",
+    "多房间"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "10c90d05-e180-44a4-b6a2-a5fa244f072e",
+    "downloadCount": 55074,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

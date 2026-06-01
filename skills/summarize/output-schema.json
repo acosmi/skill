@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "summary": {
+      "type": "string",
+      "description": "生成的摘要内容"
+    },
+    "source_type": {
+      "type": "string",
+      "description": "识别的内容类型：webpage/pdf/image/audio/video/text"
+    },
+    "word_count": {
+      "type": "integer",
+      "description": "摘要字数"
+    },
+    "key_points": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "关键要点列表"
+    }
+  },
+  "required": [
+    "summary"
+  ]
+}

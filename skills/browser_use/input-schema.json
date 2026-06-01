@@ -1,0 +1,42 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "navigate",
+        "click",
+        "type",
+        "screenshot",
+        "extract",
+        "scroll",
+        "wait",
+        "select"
+      ],
+      "description": "浏览器操作"
+    },
+    "url": {
+      "type": "string",
+      "description": "目标 URL（navigate 时必填）"
+    },
+    "selector": {
+      "type": "string",
+      "description": "CSS/XPath 选择器"
+    },
+    "text": {
+      "type": "string",
+      "description": "输入文本"
+    },
+    "headless": {
+      "type": "boolean",
+      "description": "无头模式，默认 true"
+    },
+    "timeout": {
+      "type": "integer",
+      "description": "超时秒数，默认 30"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

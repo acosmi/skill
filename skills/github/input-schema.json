@@ -1,0 +1,52 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "issue_list",
+        "issue_create",
+        "issue_view",
+        "pr_list",
+        "pr_create",
+        "pr_review",
+        "pr_merge",
+        "repo_clone",
+        "run_list",
+        "run_view",
+        "api"
+      ],
+      "description": "GitHub 操作类型"
+    },
+    "repo": {
+      "type": "string",
+      "description": "仓库名称（owner/repo 格式）"
+    },
+    "query": {
+      "type": "string",
+      "description": "搜索或过滤条件"
+    },
+    "number": {
+      "type": "integer",
+      "description": "Issue 或 PR 编号"
+    },
+    "title": {
+      "type": "string",
+      "description": "标题（创建时使用）"
+    },
+    "body": {
+      "type": "string",
+      "description": "正文内容（创建时使用）"
+    },
+    "labels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "标签列表"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean",
+      "description": "操作是否成功"
+    },
+    "data": {
+      "type": "object",
+      "description": "返回的数据内容"
+    },
+    "count": {
+      "type": "integer",
+      "description": "结果数量（列表操作时）"
+    },
+    "message": {
+      "type": "string",
+      "description": "操作结果描述"
+    }
+  },
+  "required": [
+    "success"
+  ]
+}

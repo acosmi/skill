@@ -1,0 +1,32 @@
+{
+  "key": "stock_analysis",
+  "name": "股票与加密货币分析",
+  "nameZh": "股票与加密货币分析",
+  "description": "股票与加密货币分析：基于 Yahoo Finance 做报价、分析、投资组合、观察清单、股息、对比、热点扫描与早期信号（8 维度评分）。当需要分析股票/加密行情或管理组合时触发。",
+  "descriptionZh": "股票与加密货币分析：基于 Yahoo Finance 做报价、分析、投资组合、观察清单、股息、对比、热点扫描与早期信号（8 维度评分）。当需要分析股票/加密行情或管理组合时触发。",
+  "version": "6.2.0",
+  "category": "ACTION",
+  "subcategory": "FINANCE",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "股票",
+    "加密货币",
+    "行情分析",
+    "投资组合",
+    "金融"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "a2f4a2c0-a49c-4ba6-b093-9c55b2068e36",
+    "downloadCount": 27623,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

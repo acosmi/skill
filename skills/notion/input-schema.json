@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "search",
+        "get_page",
+        "create_page",
+        "update_page",
+        "query_database",
+        "create_database",
+        "add_block",
+        "get_blocks"
+      ],
+      "description": "Notion 操作类型"
+    },
+    "query": {
+      "type": "string",
+      "description": "搜索关键词（search 时使用）"
+    },
+    "page_id": {
+      "type": "string",
+      "description": "页面 ID"
+    },
+    "database_id": {
+      "type": "string",
+      "description": "数据库 ID"
+    },
+    "parent_id": {
+      "type": "string",
+      "description": "父页面/数据库 ID（创建时使用）"
+    },
+    "title": {
+      "type": "string",
+      "description": "页面标题"
+    },
+    "content": {
+      "type": "string",
+      "description": "页面内容（Markdown 格式）"
+    },
+    "filter": {
+      "type": "object",
+      "description": "数据库查询过滤条件"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

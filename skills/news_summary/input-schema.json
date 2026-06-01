@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "headlines",
+        "topic",
+        "briefing",
+        "source"
+      ],
+      "description": "新闻操作：headlines=头条, topic=按主题, briefing=每日简报, source=按来源"
+    },
+    "topic": {
+      "type": "string",
+      "description": "新闻主题（technology/business/science/health/sports/world）"
+    },
+    "source": {
+      "type": "string",
+      "description": "新闻来源（bbc/reuters/npr/aljazeera）"
+    },
+    "count": {
+      "type": "integer",
+      "description": "新闻数量，默认 10"
+    },
+    "language": {
+      "type": "string",
+      "description": "语言过滤"
+    },
+    "audio": {
+      "type": "boolean",
+      "description": "是否生成语音摘要"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

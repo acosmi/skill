@@ -2,8 +2,8 @@
   "key": "crypto_price",
   "name": "加密货币价格",
   "nameZh": "加密货币价格",
-  "description": "加密货币价格 — CrabClaw AgentSkills 技能包是良性的。 `SKILL.md` 文件包含 inst",
-  "descriptionZh": "加密货币价格 — CrabClaw AgentSkills 技能包是良性的。 `SKILL.md` 文件包含 inst",
+  "description": "加密货币价格:获取加密货币代币价格并生成 K 线蜡烛图。当需要查询币价或看走势图时触发。",
+  "descriptionZh": "加密货币价格:获取加密货币代币价格并生成 K 线蜡烛图。当需要查询币价或看走势图时触发。",
   "version": "0.2.2",
   "category": "ACTION",
   "subcategory": "OTHER",
@@ -11,10 +11,11 @@
   "author": "CrabClaw",
   "license": "Apache-2.0",
   "tags": [
-    "coder-youhua",
-    "中文优化",
-    "金融",
-    "API"
+    "加密货币",
+    "币价",
+    "K线图",
+    "行情",
+    "数字货币"
   ],
   "timeout": 30,
   "retryCount": 0,
@@ -25,7 +26,7 @@
   "acosmi": {
     "storeId": "67a56368-2a46-4129-a66f-e720d096ebff",
     "downloadCount": 6265,
-    "updatedAt": "2026-03-19 01:25",
+    "updatedAt": "2026-05-30 16:16",
     "createdAt": ""
   }
 }

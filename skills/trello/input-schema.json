@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "list_boards",
+        "list_cards",
+        "create_card",
+        "move_card",
+        "add_member",
+        "add_comment",
+        "add_label",
+        "archive"
+      ],
+      "description": "Trello 操作"
+    },
+    "board_id": {
+      "type": "string",
+      "description": "看板 ID"
+    },
+    "list_id": {
+      "type": "string",
+      "description": "列表 ID"
+    },
+    "card_id": {
+      "type": "string",
+      "description": "卡片 ID"
+    },
+    "name": {
+      "type": "string",
+      "description": "名称（创建时使用）"
+    },
+    "description": {
+      "type": "string"
+    },
+    "member": {
+      "type": "string",
+      "description": "成员 ID"
+    },
+    "label": {
+      "type": "string",
+      "description": "标签颜色"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

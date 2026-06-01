@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "url": {
+      "type": "string",
+      "description": "YouTube 视频 URL"
+    },
+    "language": {
+      "type": "string",
+      "description": "字幕语言代码（如 zh/en），留空自动选择"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "text",
+        "srt",
+        "json"
+      ],
+      "description": "输出格式"
+    }
+  },
+  "required": [
+    "url"
+  ]
+}

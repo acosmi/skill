@@ -1,0 +1,32 @@
+{
+  "key": "openai_whisper",
+  "name": "Whisper 语音转文字",
+  "nameZh": "Whisper 语音转文字",
+  "description": "Whisper 语音转文字：本地 Whisper CLI 离线转写，无需 API 密钥，支持多语言与多种音频格式，可输出 text/srt/vtt/json，并可翻译为英文。当需要把音频转文字/字幕时触发。",
+  "descriptionZh": "Whisper 语音转文字：本地 Whisper CLI 离线转写，无需 API 密钥，支持多语言与多种音频格式，可输出 text/srt/vtt/json，并可翻译为英文。当需要把音频转文字/字幕时触发。",
+  "version": "1.0.0",
+  "category": "TRANSFORM",
+  "subcategory": "MEDIA",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "语音转文字",
+    "转写",
+    "字幕",
+    "Whisper",
+    "离线"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "69e24393-d814-4c29-99a6-7e22e7473867",
+    "downloadCount": 41505,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

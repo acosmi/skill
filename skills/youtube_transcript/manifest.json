@@ -1,0 +1,32 @@
+{
+  "key": "youtube_transcript",
+  "name": "YouTube 字幕提取",
+  "nameZh": "YouTube 字幕提取",
+  "description": "YouTube 字幕提取：通过 yt-dlp 直接从视频 URL 提取字幕文本，无需下载音频，可输出 text/srt/json，支持指定语言。当需要获取 YouTube 视频文字稿时触发。",
+  "descriptionZh": "YouTube 字幕提取：通过 yt-dlp 直接从视频 URL 提取字幕文本，无需下载音频，可输出 text/srt/json，支持指定语言。当需要获取 YouTube 视频文字稿时触发。",
+  "version": "1.0.1",
+  "category": "TRANSFORM",
+  "subcategory": "MEDIA",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "YouTube",
+    "字幕",
+    "转录",
+    "视频",
+    "提取"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "2f43fb8a-719f-444c-bf16-6797277c763a",
+    "downloadCount": 31315,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

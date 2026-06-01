@@ -1,0 +1,32 @@
+{
+  "key": "baidu_search",
+  "name": "百度 AI 搜索",
+  "nameZh": "百度 AI 搜索",
+  "description": "百度 AI 搜索：通过百度 AI 搜索引擎获取实时中文信息、文档与研究内容，支持时间过滤与结果数量控制，专为中文内容优化。当需要中文网络搜索时触发。",
+  "descriptionZh": "百度 AI 搜索：通过百度 AI 搜索引擎获取实时中文信息、文档与研究内容，支持时间过滤与结果数量控制，专为中文内容优化。当需要中文网络搜索时触发。",
+  "version": "1.1.1",
+  "category": "ACTION",
+  "subcategory": "RESEARCH",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "搜索",
+    "百度",
+    "中文",
+    "实时信息",
+    "研究"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "5fdb49de-2676-451f-ad56-a73e5c20ae72",
+    "downloadCount": 34504,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

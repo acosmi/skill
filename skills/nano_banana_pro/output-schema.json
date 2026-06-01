@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "image_path": {
+      "type": "string",
+      "description": "生成的图片文件路径"
+    },
+    "resolution": {
+      "type": "string",
+      "description": "实际输出分辨率"
+    },
+    "seed": {
+      "type": "integer",
+      "description": "使用的随机种子（可复现）"
+    }
+  },
+  "required": [
+    "success",
+    "image_path"
+  ]
+}

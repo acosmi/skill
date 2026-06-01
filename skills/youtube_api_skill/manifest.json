@@ -1,0 +1,32 @@
+{
+  "key": "youtube_api_skill",
+  "name": "YouTube 搜索",
+  "nameZh": "YouTube 搜索",
+  "description": "YouTube 搜索：经托管 OAuth 调用 YouTube Data API，搜索视频、获取视频/频道信息与评论。当需要在 YouTube 搜索视频或查询频道/评论时触发。",
+  "descriptionZh": "YouTube 搜索：经托管 OAuth 调用 YouTube Data API，搜索视频、获取视频/频道信息与评论。当需要在 YouTube 搜索视频或查询频道/评论时触发。",
+  "version": "1.0.3",
+  "category": "ACTION",
+  "subcategory": "MEDIA",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "YouTube",
+    "搜索",
+    "视频",
+    "频道",
+    "API"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "94ce65fa-df2e-48b4-9b99-87637eb8a936",
+    "downloadCount": 21924,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

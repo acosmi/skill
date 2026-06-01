@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "generate",
+        "edit"
+      ],
+      "description": "操作类型：generate=文本生图, edit=图片编辑"
+    },
+    "prompt": {
+      "type": "string",
+      "description": "图片生成/编辑的文字描述"
+    },
+    "input_image": {
+      "type": "string",
+      "description": "输入图片路径（edit 操作时必填）"
+    },
+    "resolution": {
+      "type": "string",
+      "enum": [
+        "1k",
+        "2k",
+        "4k"
+      ],
+      "description": "输出分辨率，默认 1k"
+    },
+    "output": {
+      "type": "string",
+      "description": "输出文件路径"
+    },
+    "style": {
+      "type": "string",
+      "description": "风格提示词（如 photorealistic, anime, watercolor）"
+    }
+  },
+  "required": [
+    "prompt"
+  ]
+}

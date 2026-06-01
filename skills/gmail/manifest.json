@@ -1,0 +1,32 @@
+{
+  "key": "gmail",
+  "name": "Gmail",
+  "nameZh": "Gmail",
+  "description": "Gmail：经托管 OAuth 集成 Gmail API，读取/发送/管理邮件、会话线程、标签与草稿，实现 Gmail 自动化。当需要在 Gmail 收发或管理邮件时触发。",
+  "descriptionZh": "Gmail：经托管 OAuth 集成 Gmail API，读取/发送/管理邮件、会话线程、标签与草稿，实现 Gmail 自动化。当需要在 Gmail 收发或管理邮件时触发。",
+  "version": "1.0.6",
+  "category": "ACTION",
+  "subcategory": "AUTOMATION",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "Gmail",
+    "邮件",
+    "谷歌邮箱",
+    "标签",
+    "草稿"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "4ee04dc1-b05a-4cbb-bc05-1125b73e12a5",
+    "downloadCount": 22950,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "key": "imap_smtp_email",
+  "name": "IMAP/SMTP 通用邮件",
+  "nameZh": "IMAP/SMTP 通用邮件",
+  "description": "IMAP/SMTP 通用邮件：经标准 IMAP/SMTP 读取与发送邮件，支持检查新邮件、搜索邮箱、标记已读/未读、发送附件，兼容所有主流邮箱。当需要用通用协议收发邮件时触发。",
+  "descriptionZh": "IMAP/SMTP 通用邮件：经标准 IMAP/SMTP 读取与发送邮件，支持检查新邮件、搜索邮箱、标记已读/未读、发送附件，兼容所有主流邮箱。当需要用通用协议收发邮件时触发。",
+  "version": "0.0.9",
+  "category": "ACTION",
+  "subcategory": "RESEARCH",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "邮件",
+    "IMAP",
+    "SMTP",
+    "附件",
+    "通用"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "485e328d-9569-4155-9231-f48e4c49cd86",
+    "downloadCount": 22208,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

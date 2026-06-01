@@ -1,15 +1,44 @@
 ---
-name: find_skills
-description: "当用户询问\"怎么做 X\"、\"有没有能做 X 的技能\"或希望扩展智能体能力时自动触发，通过 Skills CLI 搜索、推荐并安装开源技能生态中的可用技能包。"
-version: 0.1.0
-author: "CrabClaw"
-license: Apache-2.0
+name: find-skills
+description: "技能发现与安装：搜索开源技能生态、推荐匹配技能、给出安装命令。当用户问“怎么做X/有没有能做X的技能”或想扩展能力时触发。"
+when_to_use: "用户想做某事但当前没有现成能力，或明确要找/装一个技能时"
+argument-hint: "[需求描述] (可选 category / max_results)"
+version: "1.0.0"
 ---
 
-# 技能发现与安装助手
+# 技能发现与安装
 
-当用户询问"怎么做 X"、"有没有能做 X 的技能"或希望扩展智能体能力时自动触发，通过 Skills CLI 搜索、推荐并安装开源技能生态中的可用技能包。
+通过 Skills CLI 在开源技能生态中搜索、推荐并安装技能包。
 
-## Usage
+## 何时使用
 
-This skill is mirrored from the Acosmi store. See `README.md` for full documentation.
+- 用户问“怎么做 X”“能不能帮我 X”，且 X 可能已有现成技能
+- 明确要求“找一个能做 X 的技能”“有没有 X 相关技能”
+- 希望扩展智能体能力、寻找工具/模板/工作流
+
+## 执行前检查
+
+- 运行环境已安装 Node.js 与 `npx`
+- 网络可访问技能生态源（如 skills.sh 及对应 GitHub 仓库）
+
+## 工作流
+
+1. 拆解需求三要素：领域、具体任务、是否常见场景。
+2. 用关键词搜索：`npx skills find <query>`（query 用英文核心词命中率更高）。
+3. 向用户呈现结果：技能名 + 功能简述 + 安装命令 + 详情链接。
+4. 用户确认后给出安装命令：`npx skills add <owner/repo@skill>`。
+
+## 参数
+
+- `query`（必填）— 用户需求描述。
+- `category`（可选）— ACTION / TRIGGER / TRANSFORM 过滤。
+- `max_results`（可选）— 返回数量，默认 5。
+
+## 常见陷阱
+
+- 不要凭空编造技能名或安装命令；只推荐搜索真实返回的结果。
+- 一次给太多结果会淹没用户，默认 ≤5 并按相关度排序。
+
+## 输出
+
+- 匹配技能列表：每项含名称、功能简述、安装命令、详情链接。

@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "description": "需要人性化处理的 AI 生成文本"
+    },
+    "level": {
+      "type": "string",
+      "enum": [
+        "light",
+        "moderate",
+        "heavy"
+      ],
+      "description": "改写程度"
+    },
+    "tone": {
+      "type": "string",
+      "enum": [
+        "casual",
+        "professional",
+        "academic"
+      ],
+      "description": "目标语气"
+    }
+  },
+  "required": [
+    "text"
+  ]
+}

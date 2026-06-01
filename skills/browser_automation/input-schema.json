@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "navigate",
+        "click",
+        "type",
+        "screenshot",
+        "extract",
+        "scroll",
+        "wait"
+      ],
+      "description": "浏览器操作类型"
+    },
+    "url": {
+      "type": "string",
+      "description": "目标 URL（navigate 时使用）"
+    },
+    "instruction": {
+      "type": "string",
+      "description": "自然语言指令（如“点击登录按钮”“提取所有标题”）"
+    },
+    "selector": {
+      "type": "string",
+      "description": "CSS 选择器或元素描述，可选"
+    },
+    "text": {
+      "type": "string",
+      "description": "要输入的文本（type 时使用）"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

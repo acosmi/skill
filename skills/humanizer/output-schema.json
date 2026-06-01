@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "description": "去痕后的文本"
+    },
+    "changes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "修改点列表"
+    },
+    "ai_score_before": {
+      "type": "number",
+      "description": "处理前 AI 检测分数"
+    },
+    "ai_score_after": {
+      "type": "number",
+      "description": "处理后 AI 检测分数"
+    },
+    "patterns_fixed": {
+      "type": "integer",
+      "description": "修复的 AI 写作模式数量"
+    }
+  },
+  "required": [
+    "text"
+  ]
+}

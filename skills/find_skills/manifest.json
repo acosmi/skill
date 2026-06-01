@@ -1,9 +1,9 @@
 {
   "key": "find_skills",
-  "name": "技能发现与安装助手",
-  "nameZh": "技能发现与安装助手",
-  "description": "当用户询问\"怎么做 X\"、\"有没有能做 X 的技能\"或希望扩展智能体能力时自动触发，通过 Skills CLI 搜索、推荐并安装开源技能生态中的可用技能包。",
-  "descriptionZh": "当用户询问\"怎么做 X\"、\"有没有能做 X 的技能\"或希望扩展智能体能力时自动触发，通过 Skills CLI 搜索、推荐并安装开源技能生态中的可用技能包。",
+  "name": "技能发现与安装",
+  "nameZh": "技能发现与安装",
+  "description": "技能发现与安装：按需求搜索开源技能生态、推荐匹配技能包、给出安装命令。当用户问“怎么做X/有没有能做X的技能”或想扩展能力时触发。",
+  "descriptionZh": "技能发现与安装：按需求搜索开源技能生态、推荐匹配技能包、给出安装命令。当用户问“怎么做X/有没有能做X的技能”或想扩展能力时触发。",
   "version": "0.1.0",
   "category": "ACTION",
   "subcategory": "RESEARCH",
@@ -11,10 +11,10 @@
   "author": "CrabClaw",
   "license": "Apache-2.0",
   "tags": [
-    "coder-2",
-    "coder-youhua",
-    "中文优化",
+    "技能",
     "搜索",
+    "发现",
+    "安装",
     "AI"
   ],
   "timeout": 30,
@@ -26,7 +26,7 @@
   "acosmi": {
     "storeId": "be35c0d7-a2cf-4359-81b0-c5c9e5ff96b6",
     "downloadCount": 182324,
-    "updatedAt": "2026-03-19 01:25",
+    "updatedAt": "2026-05-30 15:20",
     "createdAt": ""
   }
 }

@@ -1,0 +1,32 @@
+{
+  "key": "automation_workflows",
+  "name": "自动化工作流设计",
+  "nameZh": "自动化工作流设计",
+  "description": "自动化工作流设计：识别自动化机会、设计工作流、选型工具（Zapier/Make/n8n）、规划测试与维护，节省时间扩展业务。当需要设计自动化流程或选型自动化工具时触发。",
+  "descriptionZh": "自动化工作流设计：识别自动化机会、设计工作流、选型工具（Zapier/Make/n8n）、规划测试与维护，节省时间扩展业务。当需要设计自动化流程或选型自动化工具时触发。",
+  "version": "0.1.0",
+  "category": "ACTION",
+  "subcategory": "AUTOMATION",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "自动化",
+    "工作流",
+    "Zapier",
+    "Make",
+    "n8n"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "0792d896-5422-4d8f-b98e-59a0542905ea",
+    "downloadCount": 34679,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

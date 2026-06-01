@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "input": {
+      "type": "string",
+      "description": "视频文件路径"
+    },
+    "timestamp": {
+      "type": "string",
+      "description": "时间戳（如 00:01:30）或秒数"
+    },
+    "duration": {
+      "type": "number",
+      "description": "提取片段时长（秒）"
+    },
+    "output": {
+      "type": "string",
+      "description": "输出路径"
+    },
+    "fps": {
+      "type": "number",
+      "description": "提取帧率，默认 1 帧/秒"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "png",
+        "jpg",
+        "gif"
+      ],
+      "description": "输出格式"
+    }
+  },
+  "required": [
+    "input",
+    "timestamp"
+  ]
+}

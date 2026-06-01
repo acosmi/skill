@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean",
+      "description": "操作是否成功"
+    },
+    "data": {
+      "type": "object",
+      "description": "返回数据（Issue/PR/Run 详情）"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "description": "列表结果"
+    },
+    "total": {
+      "type": "integer",
+      "description": "总数量"
+    },
+    "url": {
+      "type": "string",
+      "description": "相关链接"
+    }
+  },
+  "required": [
+    "success"
+  ]
+}

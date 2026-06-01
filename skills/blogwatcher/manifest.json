@@ -1,0 +1,32 @@
+{
+  "key": "blogwatcher",
+  "name": "博客与 RSS 监控",
+  "nameZh": "博客与 RSS 监控",
+  "description": "博客与 RSS 监控：用 blogwatcher CLI 监控博客与 RSS/Atom 订阅源的更新，及时获取关注内容的最新动态。当需要订阅、追踪博客/RSS 更新时触发。",
+  "descriptionZh": "博客与 RSS 监控：用 blogwatcher CLI 监控博客与 RSS/Atom 订阅源的更新，及时获取关注内容的最新动态。当需要订阅、追踪博客/RSS 更新时触发。",
+  "version": "1.0.0",
+  "category": "TRIGGER",
+  "subcategory": "PRODUCTIVITY",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "RSS",
+    "博客",
+    "订阅",
+    "监控",
+    "资讯"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "7325fbf5-68ba-41fb-9f30-784f403ddf0a",
+    "downloadCount": 23470,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

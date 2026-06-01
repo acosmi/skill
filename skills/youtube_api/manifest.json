@@ -1,0 +1,32 @@
+{
+  "key": "youtube_api",
+  "name": "YouTube API",
+  "nameZh": "YouTube API",
+  "description": "YouTube API：经托管 OAuth 集成 YouTube Data API，搜索视频、管理播放列表、访问频道数据并与评论交互，实现内容运营自动化。当需要管理 YouTube 内容或播放列表时触发。",
+  "descriptionZh": "YouTube API：经托管 OAuth 集成 YouTube Data API，搜索视频、管理播放列表、访问频道数据并与评论交互，实现内容运营自动化。当需要管理 YouTube 内容或播放列表时触发。",
+  "version": "1.0.3",
+  "category": "ACTION",
+  "subcategory": "MEDIA",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "YouTube",
+    "API",
+    "播放列表",
+    "频道",
+    "运营"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "fbfee4b9-9adb-410d-a657-03f39da99624",
+    "downloadCount": 21852,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

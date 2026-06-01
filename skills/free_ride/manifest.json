@@ -1,0 +1,32 @@
+{
+  "key": "free_ride",
+  "name": "FreeRide 免费模型网关",
+  "nameZh": "FreeRide 免费模型网关",
+  "description": "FreeRide 免费模型网关：聚合并管理来自 OpenRouter 等的免费 AI 模型额度，支持列出模型、对话、查看状态与切换模型。当需要用免费模型对话或在免费模型间切换时触发。",
+  "descriptionZh": "FreeRide 免费模型网关：聚合并管理来自 OpenRouter 等的免费 AI 模型额度，支持列出模型、对话、查看状态与切换模型。当需要用免费模型对话或在免费模型间切换时触发。",
+  "version": "1.0.4",
+  "category": "ACTION",
+  "subcategory": "PRODUCTIVITY",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "免费模型",
+    "网关",
+    "OpenRouter",
+    "对话",
+    "额度"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "6a8fe185-7485-4e25-a525-0a06babe938e",
+    "downloadCount": 33734,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

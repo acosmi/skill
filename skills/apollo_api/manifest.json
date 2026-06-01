@@ -1,9 +1,9 @@
 {
   "key": "apollo_api",
-  "name": "阿波罗",
-  "nameZh": "阿波罗",
-  "description": "阿波罗 — Apollo.io API 与托管 OAuth 集成，适合在需要检索信息、查找资料或收集网页内容时调用",
-  "descriptionZh": "阿波罗 — Apollo.io API 与托管 OAuth 集成，适合在需要检索信息、查找资料或收集网页内容时调用",
+  "name": "Apollo.io 销售情报",
+  "nameZh": "Apollo.io 销售情报",
+  "description": "Apollo.io API:搜索人脉与组织、补全联系人资料、管理销售管道。当需要查找潜客、丰富联系信息或对接销售流程时触发。",
+  "descriptionZh": "Apollo.io API:搜索人脉与组织、补全联系人资料、管理销售管道。当需要查找潜客、丰富联系信息或对接销售流程时触发。",
   "version": "1.0.5",
   "category": "ACTION",
   "subcategory": "RESEARCH",
@@ -11,10 +11,11 @@
   "author": "CrabClaw",
   "license": "Apache-2.0",
   "tags": [
-    "coder-youhua",
-    "中文优化",
-    "搜索",
-    "AI"
+    "销售情报",
+    "联系人补全",
+    "Apollo",
+    "OAuth",
+    "CRM"
   ],
   "timeout": 30,
   "retryCount": 0,
@@ -25,7 +26,7 @@
   "acosmi": {
     "storeId": "5e846f70-00f4-4bfa-9cef-0bdf9bdc37f9",
     "downloadCount": 4891,
-    "updatedAt": "2026-03-19 01:25",
+    "updatedAt": "2026-05-30 16:22",
     "createdAt": ""
   }
 }

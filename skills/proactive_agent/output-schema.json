@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "action_taken": {
+      "type": "string",
+      "description": "已执行的主动行为"
+    },
+    "scheduled": {
+      "type": "boolean",
+      "description": "是否已安排定时任务"
+    },
+    "anticipations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "预判的用户需求列表"
+    },
+    "next_check": {
+      "type": "string",
+      "description": "下次主动检查时间"
+    }
+  },
+  "required": [
+    "action_taken"
+  ]
+}

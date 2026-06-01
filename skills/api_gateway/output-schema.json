@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "data": {
+      "type": "object",
+      "description": "API 返回数据"
+    },
+    "service": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "rate_limit": {
+      "type": "object",
+      "properties": {
+        "remaining": {
+          "type": "integer"
+        },
+        "reset": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": [
+    "success"
+  ]
+}

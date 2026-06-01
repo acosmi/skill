@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean",
+      "description": "操作是否成功"
+    },
+    "content": {
+      "type": "string",
+      "description": "页面文本内容或截图 base64"
+    },
+    "title": {
+      "type": "string",
+      "description": "页面标题"
+    },
+    "url": {
+      "type": "string",
+      "description": "当前页面 URL"
+    },
+    "elements": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "description": "匹配的页面元素列表"
+    }
+  },
+  "required": [
+    "success"
+  ]
+}

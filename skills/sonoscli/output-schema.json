@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "speakers": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "description": "发现的音响列表"
+    },
+    "status": {
+      "type": "object",
+      "description": "当前播放状态"
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "success"
+  ]
+}

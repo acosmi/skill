@@ -1,0 +1,32 @@
+{
+  "key": "auto_updater",
+  "name": "技能自动更新",
+  "nameZh": "技能自动更新",
+  "description": "技能自动更新：定时检查并更新已安装技能，支持单个/全部更新、定时计划与状态查询，完成后推送更新摘要。当需要保持技能库最新或配置自动更新时触发。",
+  "descriptionZh": "技能自动更新：定时检查并更新已安装技能，支持单个/全部更新、定时计划与状态查询，完成后推送更新摘要。当需要保持技能库最新或配置自动更新时触发。",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "AUTOMATION",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "技能",
+    "自动更新",
+    "定时",
+    "维护",
+    "通知"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "74a6d2ad-0c9f-4b8f-8de4-527aa95c950c",
+    "downloadCount": 39333,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

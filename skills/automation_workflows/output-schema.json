@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean",
+      "description": "操作是否成功"
+    },
+    "data": {
+      "type": "object",
+      "description": "返回数据"
+    },
+    "message": {
+      "type": "string",
+      "description": "结果描述"
+    }
+  },
+  "required": [
+    "success"
+  ]
+}

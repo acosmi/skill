@@ -1,0 +1,32 @@
+{
+  "key": "agent_browser",
+  "name": "智能体浏览器",
+  "nameZh": "智能体浏览器",
+  "description": "智能体浏览器：高性能无头浏览器自动化，支持导航、点击、输入、滚动、等待、页面快照与执行 JS。当需要访问网页、抓取内容或自动化网页操作时触发。",
+  "descriptionZh": "智能体浏览器：高性能无头浏览器自动化，支持导航、点击、输入、滚动、等待、页面快照与执行 JS。当需要访问网页、抓取内容或自动化网页操作时触发。",
+  "version": "0.2.0",
+  "category": "ACTION",
+  "subcategory": "RESEARCH",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "浏览器",
+    "自动化",
+    "无头",
+    "抓取",
+    "网页"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "7ddc52f1-00a1-4b41-ba28-f5246a77db02",
+    "downloadCount": 112570,
+    "updatedAt": "2026-05-30 15:20",
+    "createdAt": ""
+  }
+}

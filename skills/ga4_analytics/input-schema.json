@@ -3,19 +3,7 @@
   "properties": {
     "query": {
       "type": "string",
-      "description": "查询内容或搜索关键词"
-    },
-    "url": {
-      "type": "string",
-      "description": "目标 URL 地址"
-    },
-    "file_path": {
-      "type": "string",
-      "description": "文件路径"
-    },
-    "repository": {
-      "type": "string",
-      "description": "仓库标识 (owner/repo)"
+      "description": "查询内容、维度或指标"
     },
     "action": {
       "type": "string",
@@ -24,11 +12,8 @@
         "send",
         "search",
         "list"
-      ]
-    },
-    "command": {
-      "type": "string",
-      "description": "要执行的 CLI 命令"
+      ],
+      "description": "分析操作"
     },
     "env_vars": {
       "type": "object",

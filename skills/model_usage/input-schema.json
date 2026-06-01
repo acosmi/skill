@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "scope": {
+      "type": "string",
+      "enum": [
+        "current",
+        "all"
+      ],
+      "description": "统计范围：current=当前模型, all=全量模型"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "json",
+        "text",
+        "table"
+      ],
+      "description": "输出格式"
+    },
+    "period": {
+      "type": "string",
+      "enum": [
+        "today",
+        "week",
+        "month",
+        "all"
+      ],
+      "description": "统计周期"
+    },
+    "model": {
+      "type": "string",
+      "description": "指定模型名（留空统计全部）"
+    }
+  },
+  "required": [
+    "scope"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "key": "browser_automation",
+  "name": "自然语言浏览器自动化",
+  "nameZh": "自然语言浏览器自动化",
+  "description": "自然语言浏览器自动化：用自然语言 CLI 指令自动化浏览器操作，支持网站浏览、网页数据提取、截图与表单交互，无需编写代码。当需要用自然语言驱动网页操作时触发。",
+  "descriptionZh": "自然语言浏览器自动化：用自然语言 CLI 指令自动化浏览器操作，支持网站浏览、网页数据提取、截图与表单交互，无需编写代码。当需要用自然语言驱动网页操作时触发。",
+  "version": "1.0.1",
+  "category": "ACTION",
+  "subcategory": "RESEARCH",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "浏览器",
+    "自然语言",
+    "自动化",
+    "抓取",
+    "截图"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "547e8ea4-0850-4573-9b98-e5e89154d0be",
+    "downloadCount": 19377,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

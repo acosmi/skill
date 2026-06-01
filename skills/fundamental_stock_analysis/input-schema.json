@@ -1,51 +1,12 @@
 {
   "type": "object",
   "properties": {
-    "action": {
+    "ticker": {
       "type": "string",
-      "enum": [
-        "scan",
-        "audit",
-        "check",
-        "encrypt",
-        "decrypt",
-        "monitor",
-        "report"
-      ],
-      "description": "安全操作"
-    },
-    "target": {
-      "type": "string",
-      "description": "检查目标（URL/文件/系统）"
-    },
-    "scope": {
-      "type": "string",
-      "enum": [
-        "quick",
-        "standard",
-        "deep"
-      ],
-      "description": "扫描范围"
-    },
-    "rules": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "description": "检查规则"
-    },
-    "output_format": {
-      "type": "string",
-      "enum": [
-        "json",
-        "report",
-        "sarif"
-      ],
-      "description": "输出格式"
+      "description": "股票代码或以逗号分隔的代码列表"
     }
   },
   "required": [
-    "action",
-    "target"
+    "ticker"
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "add",
+        "list",
+        "check",
+        "read",
+        "remove"
+      ],
+      "description": "add=添加订阅, list=列出订阅, check=检查更新, read=读取文章, remove=移除订阅"
+    },
+    "feed_url": {
+      "type": "string",
+      "description": "RSS/Atom 订阅源 URL（add/remove 时使用）"
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "关注关键词过滤，可选"
+    },
+    "limit": {
+      "type": "integer",
+      "description": "返回条数上限，可选"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

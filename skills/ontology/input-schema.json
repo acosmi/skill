@@ -1,0 +1,56 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "create_entity",
+        "query",
+        "link",
+        "traverse",
+        "update",
+        "delete"
+      ],
+      "description": "知识图谱操作类型"
+    },
+    "entity_type": {
+      "type": "string",
+      "enum": [
+        "person",
+        "project",
+        "task",
+        "event",
+        "document",
+        "concept"
+      ],
+      "description": "实体类型"
+    },
+    "name": {
+      "type": "string",
+      "description": "实体名称"
+    },
+    "properties": {
+      "type": "object",
+      "description": "实体属性键值对"
+    },
+    "relation": {
+      "type": "string",
+      "description": "关系类型（link 操作时使用）"
+    },
+    "target": {
+      "type": "string",
+      "description": "目标实体名称（link 操作时使用）"
+    },
+    "query": {
+      "type": "string",
+      "description": "查询表达式或自然语言描述"
+    },
+    "depth": {
+      "type": "integer",
+      "description": "图遍历深度（traverse 时使用），默认 2"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

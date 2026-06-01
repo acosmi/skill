@@ -1,0 +1,32 @@
+{
+  "key": "gemini",
+  "name": "Gemini CLI",
+  "nameZh": "Gemini CLI",
+  "description": "Gemini CLI：用 Gemini 命令行做一次性问答、内容摘要、文本生成与分析，快速调用 Google Gemini 模型能力。当需要快速问答或用 Gemini 生成/分析文本时触发。",
+  "descriptionZh": "Gemini CLI：用 Gemini 命令行做一次性问答、内容摘要、文本生成与分析，快速调用 Google Gemini 模型能力。当需要快速问答或用 Gemini 生成/分析文本时触发。",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "API_INTEGRATION",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "Gemini",
+    "问答",
+    "生成",
+    "摘要",
+    "CLI"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "079de9cd-3acc-4b77-93da-a95d9ef82572",
+    "downloadCount": 20579,
+    "updatedAt": "2026-05-30 15:42",
+    "createdAt": ""
+  }
+}

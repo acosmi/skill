@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "navigate",
+        "click",
+        "fill",
+        "screenshot",
+        "extract_text",
+        "select",
+        "hover",
+        "wait_for",
+        "evaluate"
+      ],
+      "description": "Playwright 操作"
+    },
+    "url": {
+      "type": "string",
+      "description": "导航目标 URL"
+    },
+    "selector": {
+      "type": "string",
+      "description": "CSS/文本选择器"
+    },
+    "text": {
+      "type": "string",
+      "description": "输入文本（fill 时使用）"
+    },
+    "script": {
+      "type": "string",
+      "description": "JavaScript 代码（evaluate 时使用）"
+    },
+    "path": {
+      "type": "string",
+      "description": "截图保存路径"
+    },
+    "timeout": {
+      "type": "integer",
+      "description": "等待超时 ms"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

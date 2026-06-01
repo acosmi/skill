@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "properties": {
+            "type": "object"
+          }
+        }
+      },
+      "description": "查询结果实体列表"
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "description": "关系列表"
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "success"
+  ]
+}

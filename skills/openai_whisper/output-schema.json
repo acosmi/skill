@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "description": "转写的文本内容"
+    },
+    "language": {
+      "type": "string",
+      "description": "检测到的语言"
+    },
+    "duration": {
+      "type": "number",
+      "description": "音频时长（秒）"
+    },
+    "segments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "start": {
+            "type": "number"
+          },
+          "end": {
+            "type": "number"
+          },
+          "text": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "带时间戳的分段列表"
+    }
+  },
+  "required": [
+    "text"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "key": "api_gateway",
+  "name": "API 网关（100+ 服务）",
+  "nameZh": "API 网关（100+ 服务）",
+  "description": "API 网关：通过托管 OAuth 一处接入 100+ 主流 API（Google Workspace、Microsoft 365、GitHub、Notion、Slack、Airtable、HubSpot 等），支持增删改查/搜索/发送/Webhook。当需要调用第三方 SaaS API 时触发。",
+  "descriptionZh": "API 网关：通过托管 OAuth 一处接入 100+ 主流 API（Google Workspace、Microsoft 365、GitHub、Notion、Slack、Airtable、HubSpot 等），支持增删改查/搜索/发送/Webhook。当需要调用第三方 SaaS API 时触发。",
+  "version": "1.0.67",
+  "category": "ACTION",
+  "subcategory": "CODING",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "API",
+    "集成",
+    "OAuth",
+    "SaaS",
+    "网关"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "36519c5e-fa5e-4b07-8195-3410e9d4d151",
+    "downloadCount": 40423,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

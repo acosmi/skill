@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "identify",
+        "design",
+        "select_tool",
+        "plan_test"
+      ],
+      "description": "identify=识别机会, design=设计工作流, select_tool=工具选型, plan_test=测试与维护规划"
+    },
+    "goal": {
+      "type": "string",
+      "description": "要自动化的业务目标或现状描述"
+    },
+    "platform": {
+      "type": "string",
+      "enum": [
+        "zapier",
+        "make",
+        "n8n",
+        "any"
+      ],
+      "description": "目标自动化平台，any=由方案推荐"
+    },
+    "constraints": {
+      "type": "string",
+      "description": "约束（预算、已用工具、数据合规等），可选"
+    }
+  },
+  "required": [
+    "action",
+    "goal"
+  ]
+}

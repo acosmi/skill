@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "updated": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "已更新的技能列表"
+    },
+    "skipped": {
+      "type": "integer"
+    },
+    "failed": {
+      "type": "integer"
+    },
+    "next_check": {
+      "type": "string",
+      "description": "下次检查时间"
+    }
+  },
+  "required": [
+    "updated"
+  ]
+}

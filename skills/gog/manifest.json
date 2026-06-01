@@ -1,0 +1,32 @@
+{
+  "key": "gog",
+  "name": "Google Workspace 套件",
+  "nameZh": "Google Workspace 套件",
+  "description": "Google Workspace 套件：统一操作 Gmail、日历、云端硬盘、联系人、表格和文档，支持列出/查看/创建/更新/删除/搜索/发送。当需要处理 Google 办公服务时触发。",
+  "descriptionZh": "Google Workspace 套件：统一操作 Gmail、日历、云端硬盘、联系人、表格和文档，支持列出/查看/创建/更新/删除/搜索/发送。当需要处理 Google 办公服务时触发。",
+  "version": "1.0.0",
+  "category": "ACTION",
+  "subcategory": "RESEARCH",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "Google",
+    "Gmail",
+    "日历",
+    "Drive",
+    "办公"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "0d707be2-8f4e-40ee-9358-56494fbb2fb6",
+    "downloadCount": 105502,
+    "updatedAt": "2026-05-30 15:20",
+    "createdAt": ""
+  }
+}

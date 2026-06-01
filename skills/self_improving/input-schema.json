@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "reflect",
+        "critique",
+        "learn",
+        "organize",
+        "recall"
+      ],
+      "description": "自进化操作：reflect=自我反思, critique=自我批评, learn=学习记录, organize=记忆整理, recall=经验回忆"
+    },
+    "content": {
+      "type": "string",
+      "description": "反思/学习/批评的内容描述"
+    },
+    "task_result": {
+      "type": "string",
+      "description": "需要评估的任务结果"
+    },
+    "query": {
+      "type": "string",
+      "description": "经验检索查询（recall 时使用）"
+    },
+    "category": {
+      "type": "string",
+      "description": "学习分类标签"
+    }
+  },
+  "required": [
+    "action",
+    "content"
+  ]
+}

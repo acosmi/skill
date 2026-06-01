@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "search",
+        "video_info",
+        "channel_info",
+        "comments"
+      ],
+      "description": "search=搜索视频, video_info=视频详情, channel_info=频道信息, comments=评论"
+    },
+    "query": {
+      "type": "string",
+      "description": "搜索关键词（search 时使用）"
+    },
+    "video_id": {
+      "type": "string",
+      "description": "视频 ID（video_info/comments 时使用）"
+    },
+    "channel_id": {
+      "type": "string",
+      "description": "频道 ID（channel_info 时使用）"
+    },
+    "max_results": {
+      "type": "integer",
+      "description": "返回数量上限，默认 10"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}

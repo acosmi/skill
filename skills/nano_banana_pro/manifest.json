@@ -1,0 +1,32 @@
+{
+  "key": "nano_banana_pro",
+  "name": "AI 图片生成与编辑",
+  "nameZh": "AI 图片生成与编辑",
+  "description": "AI 图片生成与编辑：用 Nano Banana Pro（Gemini 3 Pro 图像模型）文生图与图片编辑，分辨率 1K/2K/4K，支持参考图。当需要生成或编辑图片时触发。",
+  "descriptionZh": "AI 图片生成与编辑：用 Nano Banana Pro（Gemini 3 Pro 图像模型）文生图与图片编辑，分辨率 1K/2K/4K，支持参考图。当需要生成或编辑图片时触发。",
+  "version": "1.0.1",
+  "category": "ACTION",
+  "subcategory": "MEDIA",
+  "icon": null,
+  "author": "CrabClaw",
+  "license": "Apache-2.0",
+  "tags": [
+    "图片生成",
+    "AI画图",
+    "图片编辑",
+    "Gemini",
+    "多媒体"
+  ],
+  "timeout": 30,
+  "retryCount": 0,
+  "retryDelay": 1000,
+  "generatedBy": "MANUAL",
+  "source": "BUILTIN",
+  "certificationStatus": "NONE",
+  "acosmi": {
+    "storeId": "468ca8b2-8b90-464d-b513-6894c9fddd76",
+    "downloadCount": 45234,
+    "updatedAt": "2026-05-30 15:38",
+    "createdAt": ""
+  }
+}

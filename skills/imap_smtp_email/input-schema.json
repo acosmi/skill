@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": [
+        "check",
+        "read",
+        "send",
+        "search",
+        "flag"
+      ],
+      "description": "check=查新邮件, read=读取, send=发送, search=搜索, flag=标记已读/未读"
+    },
+    "folder": {
+      "type": "string",
+      "description": "邮箱文件夹，默认 INBOX"
+    },
+    "id": {
+      "type": "string",
+      "description": "邮件 ID（read/flag 时使用）"
+    },
+    "to": {
+      "type": "string",
+      "description": "收件人（send 时使用）"
+    },
+    "subject": {
+      "type": "string",
+      "description": "主题（send 时使用）"
+    },
+    "body": {
+      "type": "string",
+      "description": "正文（send 时使用）"
+    },
+    "attachments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "附件路径列表，可选"
+    },
+    "query": {
+      "type": "string",
+      "description": "搜索关键词（search 时使用）"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}
